@@ -219,8 +219,7 @@ class watch3View extends Ui.WatchFace {
     steps = actinfo.steps; // 3000
     stepGoal = actinfo.stepGoal; //10000;
 
-    var MINUTES_PER_HOUR = 60.0;
-    var myAngle = (steps * 60) / stepGoal;
+    var maximum_minutes = 60.0;
     var arcRadius = (maxX - centerX) / 2;
 
     //  steps=10;
@@ -246,7 +245,7 @@ class watch3View extends Ui.WatchFace {
       ); //position of circle
     } else {
       var arcSteps = (60.0 * steps) / stepGoal;
-      angle = getAngle(arcSteps, MINUTES_PER_HOUR);
+      angle = getAngle(arcSteps, maximum_minutes);
 
       arcAngle = 90 - (180 * angle) / Math.PI;
 
