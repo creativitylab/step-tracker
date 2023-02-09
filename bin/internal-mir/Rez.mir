@@ -1,0 +1,573 @@
+[ @file = "Rez.mc"; @line = 1; ]
+module Rez {
+    [ @file = "Rez.mc"; @line = 1; ]
+    <init> {
+    }
+    [ @file = "Rez.mc"; @line = 2; ]
+    module Drawables {
+        [ @file = "Rez.mc"; @line = 2; ]
+        <init> {
+        }
+        [ @file = "Rez.mc"; @line = 3; ]
+        import Toybox.Lang;
+        [ @file = "Rez.mc"; @line = 4; @position = 19; initialized = true; ]
+        var LauncherIcon as Symbol;
+        [ @file = "Rez.mc"; @line = 5; ]
+        using Toybox.WatchUi;
+        [ @file = "Rez.mc"; @line = 6; ]
+        using Toybox.WatchUi as :Ui;
+        [ @file = "Rez.mc"; @line = 7; ]
+        using Toybox.Graphics;
+        [ @file = "Rez.mc"; @line = 8; ]
+        using Toybox.Graphics as :Gfx;
+        [ @file = "Rez.mc"; @line = 10; ]
+        class Smiley extends WatchUi.Drawable{
+            [ @file = "Rez.mc"; @line = 10; ]
+            <init> {
+            }
+            [ @file = "Rez.mc"; @line = 10; ]
+            static
+            <init> {
+            }
+            [ @file = "Rez.mc"; @line = 12; ]
+            function initialize() as Void {
+Rez_mc_12_30_start:
+[ "Rez.mc" 13 12 ]
+                %tmp.2 = getv ? :Drawable;
+                %tmp.3 = getv function %tmp.2 :initialize;
+                %tmp.4 = newd 0;
+                invoke %tmp.2 %tmp.3(%tmp.4);
+Rez_mc_12_30_stop:
+            }
+            [ @file = "Rez.mc"; @line = 16; ]
+            function draw(dc as Graphics.Dc) as Void {
+Rez_mc_16_49_start:
+[ "Rez.mc" 17 12 ]
+Rez_mc_17_12_if_stmt:
+                %tmp.2 = lgetv %self;
+                %tmp.4 = const :isVisible;
+                %tmp.5 = canhazplz %tmp.2 %tmp.4;
+                bf %tmp.5 @Rez_mc_17_12_if_end;
+Rez_mc_17_12_if_true:
+Rez_mc_17_37_start:
+[ "Rez.mc" 18 16 ]
+Rez_mc_18_16_if_stmt:
+                %tmp.6 = lgetv %self;
+                %tmp.7 = as %tmp.6 { (interface { var isVisible; }) };
+                %tmp.8 = getv %tmp.7 :isVisible;
+                %tmp.9 = not %tmp.8;
+                bf %tmp.9 @Rez_mc_18_16_if_end;
+Rez_mc_18_16_if_true:
+Rez_mc_18_37_start:
+[ "Rez.mc" 19 20 ]
+                ret ?;
+Rez_mc_18_37_stop:
+                goto @Rez_mc_18_16_if_end;
+Rez_mc_18_16_if_end:
+Rez_mc_17_37_stop:
+                goto @Rez_mc_17_12_if_end;
+Rez_mc_17_12_if_end:
+[ "Rez.mc" 23 0 ]
+                %tmp.10 = lgetv %dc;
+                %tmp.11 = getv function %tmp.10 :setColor;
+                %tmp.12 = getm $.Toybox.Graphics;
+                %tmp.13 = getv %tmp.12 :COLOR_YELLOW;
+                %tmp.14 = getm $.Toybox.Graphics;
+                %tmp.15 = getv %tmp.14 :COLOR_TRANSPARENT;
+                invoke %tmp.10 %tmp.11(%tmp.13, %tmp.15);
+[ "Rez.mc" 24 0 ]
+                %tmp.16 = lgetv %dc;
+                %tmp.17 = getv function %tmp.16 :fillRectangle;
+                %tmp.18 = 0;
+                %tmp.19 = 0;
+                %tmp.20 = add %tmp.18 %tmp.19;
+                %tmp.21 = 0;
+                %tmp.22 = 0;
+                %tmp.23 = add %tmp.21 %tmp.22;
+                %tmp.24 = 260;
+                %tmp.25 = 0;
+                %tmp.26 = sub %tmp.24 %tmp.25;
+                %tmp.27 = 260;
+                %tmp.28 = 0;
+                %tmp.29 = sub %tmp.27 %tmp.28;
+                invoke %tmp.16 %tmp.17(%tmp.20, %tmp.23, %tmp.26, %tmp.29);
+[ "Rez.mc" 25 0 ]
+                %tmp.30 = lgetv %dc;
+                %tmp.31 = getv function %tmp.30 :setColor;
+                %tmp.32 = getm $.Toybox.Graphics;
+                %tmp.33 = getv %tmp.32 :COLOR_TRANSPARENT;
+                %tmp.34 = getm $.Toybox.Graphics;
+                %tmp.35 = getv %tmp.34 :COLOR_YELLOW;
+                invoke %tmp.30 %tmp.31(%tmp.33, %tmp.35);
+[ "Rez.mc" 27 0 ]
+                %tmp.36 = lgetv %dc;
+                %tmp.37 = getv function %tmp.36 :setColor;
+                %tmp.38 = getm $.Toybox.Graphics;
+                %tmp.39 = getv %tmp.38 :COLOR_BLUE;
+                %tmp.40 = getm $.Toybox.Graphics;
+                %tmp.41 = getv %tmp.40 :COLOR_TRANSPARENT;
+                invoke %tmp.36 %tmp.37(%tmp.39, %tmp.41);
+[ "Rez.mc" 28 0 ]
+                %tmp.42 = lgetv %dc;
+                %tmp.43 = getv function %tmp.42 :fillCircle;
+                %tmp.44 = 0;
+                %tmp.45 = 0;
+                %tmp.46 = add %tmp.44 %tmp.45;
+                %tmp.47 = 60;
+                %tmp.48 = add %tmp.46 %tmp.47;
+                %tmp.49 = 0;
+                %tmp.50 = 0;
+                %tmp.51 = add %tmp.49 %tmp.50;
+                %tmp.52 = 40;
+                %tmp.53 = add %tmp.51 %tmp.52;
+                %tmp.54 = 50;
+                %tmp.55 = 0;
+                %tmp.56 = sub %tmp.54 %tmp.55;
+                invoke %tmp.42 %tmp.43(%tmp.48, %tmp.53, %tmp.56);
+[ "Rez.mc" 30 0 ]
+                %tmp.57 = lgetv %dc;
+                %tmp.58 = getv function %tmp.57 :setColor;
+                %tmp.59 = getm $.Toybox.Graphics;
+                %tmp.60 = getv %tmp.59 :COLOR_BLUE;
+                %tmp.61 = getm $.Toybox.Graphics;
+                %tmp.62 = getv %tmp.61 :COLOR_TRANSPARENT;
+                invoke %tmp.57 %tmp.58(%tmp.60, %tmp.62);
+[ "Rez.mc" 31 0 ]
+                %tmp.63 = lgetv %dc;
+                %tmp.64 = getv function %tmp.63 :fillCircle;
+                %tmp.65 = 0;
+                %tmp.66 = 0;
+                %tmp.67 = add %tmp.65 %tmp.66;
+                %tmp.68 = 260;
+                %tmp.69 = 0;
+                %tmp.70 = sub %tmp.68 %tmp.69;
+                %tmp.71 = 2;
+                %tmp.72 = div %tmp.70 %tmp.71;
+                %tmp.73 = add %tmp.67 %tmp.72;
+                %tmp.74 = 0;
+                %tmp.75 = 0;
+                %tmp.76 = add %tmp.74 %tmp.75;
+                %tmp.77 = 260;
+                %tmp.78 = 0;
+                %tmp.79 = sub %tmp.77 %tmp.78;
+                %tmp.80 = 2;
+                %tmp.81 = div %tmp.79 %tmp.80;
+                %tmp.82 = add %tmp.76 %tmp.81;
+                %tmp.83 = 50;
+                %tmp.84 = 0;
+                %tmp.85 = sub %tmp.83 %tmp.84;
+                invoke %tmp.63 %tmp.64(%tmp.73, %tmp.82, %tmp.85);
+Rez_mc_16_49_stop:
+            }
+        }
+    }
+    [ @file = "Rez.mc"; @line = 38; ]
+    module Fonts {
+        [ @file = "Rez.mc"; @line = 38; ]
+        <init> {
+        }
+    }
+    [ @file = "Rez.mc"; @line = 40; ]
+    module JsonData {
+        [ @file = "Rez.mc"; @line = 40; ]
+        <init> {
+        }
+    }
+    [ @file = "Rez.mc"; @line = 42; ]
+    module Layouts {
+        [ @file = "Rez.mc"; @line = 42; ]
+        <init> {
+        }
+        [ @file = "Rez.mc"; @line = 43; ]
+        import Toybox.Lang;
+        [ @file = "Rez.mc"; @line = 44; ]
+        using Toybox.WatchUi;
+        [ @file = "Rez.mc"; @line = 45; ]
+        using Toybox.WatchUi as :Ui;
+        [ @file = "Rez.mc"; @line = 46; ]
+        using Toybox.Graphics;
+        [ @file = "Rez.mc"; @line = 47; ]
+        using Toybox.Graphics as :Gfx;
+        [ @file = "Rez.mc"; @line = 49; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+Rez_mc_49_69_start:
+[ "Rez.mc" 51 0 ]
+            [ "Rez_mc_49_69_start" "Rez_mc_49_69_stop" ]
+            %rez_cmp_local_custom_drawable_35401248939547197219.1 = local;
+            %tmp.4 = getv ? :Background;
+            %tmp.1 = newc %tmp.4 ();
+            lputv %rez_cmp_local_custom_drawable_35401248939547197219.1 %tmp.1;
+[ "Rez.mc" 52 0 ]
+            [ "Rez_mc_49_69_start" "Rez_mc_49_69_stop" ]
+            %rez_cmp_local_text_TimeLabel.2 = local;
+            %tmp.7 = getm $.Toybox.WatchUi;
+            %tmp.8 = getv function ? %tmp.7 :Text;
+            %tmp.9 = newd 6;
+            %tmp.11 = const :identifier;
+            %tmp.12 = "TimeLabel";
+            %tmp.13 = dup %tmp.9;
+            %tmp.14 = aputv %tmp.13 %tmp.11 %tmp.12;
+            %tmp.16 = const :color;
+            %tmp.17 = getm $.Toybox.Graphics;
+            %tmp.18 = getv %tmp.17 :COLOR_BLUE;
+            %tmp.19 = dup %tmp.14;
+            %tmp.20 = aputv %tmp.19 %tmp.16 %tmp.18;
+            %tmp.22 = const :locX;
+            %tmp.23 = 260;
+            %tmp.24 = 0.5;
+            %tmp.25 = mul %tmp.23 %tmp.24;
+            %tmp.26 = dup %tmp.20;
+            %tmp.27 = aputv %tmp.26 %tmp.22 %tmp.25;
+            %tmp.29 = const :locY;
+            %tmp.30 = 260;
+            %tmp.31 = lgetv %dc;
+            %tmp.32 = getv function %tmp.31 :getFontHeight;
+            %tmp.33 = getm $.Toybox.Graphics;
+            %tmp.34 = getv %tmp.33 :FONT_NUMBER_HOT;
+            %tmp.35 = invoke %tmp.31 %tmp.32(%tmp.34);
+            %tmp.36 = sub %tmp.30 %tmp.35;
+            %tmp.37 = 0.5;
+            %tmp.38 = mul %tmp.36 %tmp.37;
+            %tmp.39 = dup %tmp.27;
+            %tmp.40 = aputv %tmp.39 %tmp.29 %tmp.38;
+            %tmp.42 = const :justification;
+            %tmp.43 = getm $.Toybox.Graphics;
+            %tmp.44 = getv %tmp.43 :TEXT_JUSTIFY_CENTER;
+            %tmp.45 = dup %tmp.40;
+            %tmp.46 = aputv %tmp.45 %tmp.42 %tmp.44;
+            %tmp.48 = const :font;
+            %tmp.49 = getm $.Toybox.Graphics;
+            %tmp.50 = getv %tmp.49 :FONT_NUMBER_HOT;
+            %tmp.51 = dup %tmp.46;
+            %tmp.52 = aputv %tmp.51 %tmp.48 %tmp.50;
+            %tmp.5 = newc %tmp.8 (%tmp.52);
+            lputv %rez_cmp_local_text_TimeLabel.2 %tmp.5;
+[ "Rez.mc" 53 0 ]
+            [ "Rez_mc_49_69_start" "Rez_mc_49_69_stop" ]
+            %rez_cmp_local_text_Battery.3 = local;
+            %tmp.55 = getm $.Toybox.WatchUi;
+            %tmp.56 = getv function ? %tmp.55 :Text;
+            %tmp.57 = newd 5;
+            %tmp.59 = const :identifier;
+            %tmp.60 = "Battery";
+            %tmp.61 = dup %tmp.57;
+            %tmp.62 = aputv %tmp.61 %tmp.59 %tmp.60;
+            %tmp.64 = const :locX;
+            %tmp.65 = 60;
+            %tmp.66 = dup %tmp.62;
+            %tmp.67 = aputv %tmp.66 %tmp.64 %tmp.65;
+            %tmp.69 = const :locY;
+            %tmp.70 = 40;
+            %tmp.71 = dup %tmp.67;
+            %tmp.72 = aputv %tmp.71 %tmp.69 %tmp.70;
+            %tmp.74 = const :justification;
+            %tmp.75 = getm $.Toybox.Graphics;
+            %tmp.76 = getv %tmp.75 :TEXT_JUSTIFY_CENTER;
+            %tmp.77 = dup %tmp.72;
+            %tmp.78 = aputv %tmp.77 %tmp.74 %tmp.76;
+            %tmp.80 = const :font;
+            %tmp.81 = getm $.Toybox.Graphics;
+            %tmp.82 = getv %tmp.81 :FONT_XTINY;
+            %tmp.83 = dup %tmp.78;
+            %tmp.84 = aputv %tmp.83 %tmp.80 %tmp.82;
+            %tmp.53 = newc %tmp.56 (%tmp.84);
+            lputv %rez_cmp_local_text_Battery.3 %tmp.53;
+[ "Rez.mc" 54 0 ]
+            [ "Rez_mc_49_69_start" "Rez_mc_49_69_stop" ]
+            %rez_cmp_local_text_DateLabel.4 = local;
+            %tmp.87 = getm $.Toybox.WatchUi;
+            %tmp.88 = getv function ? %tmp.87 :Text;
+            %tmp.89 = newd 5;
+            %tmp.91 = const :identifier;
+            %tmp.92 = "DateLabel";
+            %tmp.93 = dup %tmp.89;
+            %tmp.94 = aputv %tmp.93 %tmp.91 %tmp.92;
+            %tmp.96 = const :locX;
+            %tmp.97 = 260;
+            %tmp.98 = 0.5;
+            %tmp.99 = mul %tmp.97 %tmp.98;
+            %tmp.100 = dup %tmp.94;
+            %tmp.101 = aputv %tmp.100 %tmp.96 %tmp.99;
+            %tmp.103 = const :locY;
+            %tmp.104 = 170;
+            %tmp.105 = dup %tmp.101;
+            %tmp.106 = aputv %tmp.105 %tmp.103 %tmp.104;
+            %tmp.108 = const :justification;
+            %tmp.109 = getm $.Toybox.Graphics;
+            %tmp.110 = getv %tmp.109 :TEXT_JUSTIFY_CENTER;
+            %tmp.111 = dup %tmp.106;
+            %tmp.112 = aputv %tmp.111 %tmp.108 %tmp.110;
+            %tmp.114 = const :font;
+            %tmp.115 = getm $.Toybox.Graphics;
+            %tmp.116 = getv %tmp.115 :FONT_XTINY;
+            %tmp.117 = dup %tmp.112;
+            %tmp.118 = aputv %tmp.117 %tmp.114 %tmp.116;
+            %tmp.85 = newc %tmp.88 (%tmp.118);
+            lputv %rez_cmp_local_text_DateLabel.4 %tmp.85;
+[ "Rez.mc" 55 0 ]
+            [ "Rez_mc_49_69_start" "Rez_mc_49_69_stop" ]
+            %rez_cmp_local_text_Steps.5 = local;
+            %tmp.121 = getm $.Toybox.WatchUi;
+            %tmp.122 = getv function ? %tmp.121 :Text;
+            %tmp.123 = newd 6;
+            %tmp.125 = const :identifier;
+            %tmp.126 = "Steps";
+            %tmp.127 = dup %tmp.123;
+            %tmp.128 = aputv %tmp.127 %tmp.125 %tmp.126;
+            %tmp.130 = const :color;
+            %tmp.131 = getm $.Toybox.Graphics;
+            %tmp.132 = getv %tmp.131 :COLOR_WHITE;
+            %tmp.133 = dup %tmp.128;
+            %tmp.134 = aputv %tmp.133 %tmp.130 %tmp.132;
+            %tmp.136 = const :locX;
+            %tmp.137 = 260;
+            %tmp.138 = 0.5;
+            %tmp.139 = mul %tmp.137 %tmp.138;
+            %tmp.140 = dup %tmp.134;
+            %tmp.141 = aputv %tmp.140 %tmp.136 %tmp.139;
+            %tmp.143 = const :locY;
+            %tmp.144 = 190;
+            %tmp.145 = dup %tmp.141;
+            %tmp.146 = aputv %tmp.145 %tmp.143 %tmp.144;
+            %tmp.148 = const :justification;
+            %tmp.149 = getm $.Toybox.Graphics;
+            %tmp.150 = getv %tmp.149 :TEXT_JUSTIFY_CENTER;
+            %tmp.151 = dup %tmp.146;
+            %tmp.152 = aputv %tmp.151 %tmp.148 %tmp.150;
+            %tmp.154 = const :font;
+            %tmp.155 = getm $.Toybox.Graphics;
+            %tmp.156 = getv %tmp.155 :FONT_XTINY;
+            %tmp.157 = dup %tmp.152;
+            %tmp.158 = aputv %tmp.157 %tmp.154 %tmp.156;
+            %tmp.119 = newc %tmp.122 (%tmp.158);
+            lputv %rez_cmp_local_text_Steps.5 %tmp.119;
+[ "Rez.mc" 56 0 ]
+            [ "Rez_mc_49_69_start" "Rez_mc_49_69_stop" ]
+            %rez_cmp_local_text_DrawingRectangle.6 = local;
+            %tmp.161 = getm $.Toybox.WatchUi;
+            %tmp.162 = getv function ? %tmp.161 :Text;
+            %tmp.163 = newd 6;
+            %tmp.165 = const :identifier;
+            %tmp.166 = "DrawingRectangle";
+            %tmp.167 = dup %tmp.163;
+            %tmp.168 = aputv %tmp.167 %tmp.165 %tmp.166;
+            %tmp.170 = const :color;
+            %tmp.171 = getm $.Toybox.Graphics;
+            %tmp.172 = getv %tmp.171 :COLOR_WHITE;
+            %tmp.173 = dup %tmp.168;
+            %tmp.174 = aputv %tmp.173 %tmp.170 %tmp.172;
+            %tmp.176 = const :locX;
+            %tmp.177 = 260;
+            %tmp.178 = 0.5;
+            %tmp.179 = mul %tmp.177 %tmp.178;
+            %tmp.180 = dup %tmp.174;
+            %tmp.181 = aputv %tmp.180 %tmp.176 %tmp.179;
+            %tmp.183 = const :locY;
+            %tmp.184 = 250;
+            %tmp.185 = dup %tmp.181;
+            %tmp.186 = aputv %tmp.185 %tmp.183 %tmp.184;
+            %tmp.188 = const :justification;
+            %tmp.189 = getm $.Toybox.Graphics;
+            %tmp.190 = getv %tmp.189 :TEXT_JUSTIFY_CENTER;
+            %tmp.191 = dup %tmp.186;
+            %tmp.192 = aputv %tmp.191 %tmp.188 %tmp.190;
+            %tmp.194 = const :font;
+            %tmp.195 = getm $.Toybox.Graphics;
+            %tmp.196 = getv %tmp.195 :FONT_XTINY;
+            %tmp.197 = dup %tmp.192;
+            %tmp.198 = aputv %tmp.197 %tmp.194 %tmp.196;
+            %tmp.159 = newc %tmp.162 (%tmp.198);
+            lputv %rez_cmp_local_text_DrawingRectangle.6 %tmp.159;
+[ "Rez.mc" 57 0 ]
+            [ "Rez_mc_49_69_start" "Rez_mc_49_69_stop" ]
+            %rez_cmp_local_text_FeelTemperature.7 = local;
+            %tmp.201 = getm $.Toybox.WatchUi;
+            %tmp.202 = getv function ? %tmp.201 :Text;
+            %tmp.203 = newd 5;
+            %tmp.205 = const :identifier;
+            %tmp.206 = "FeelTemperature";
+            %tmp.207 = dup %tmp.203;
+            %tmp.208 = aputv %tmp.207 %tmp.205 %tmp.206;
+            %tmp.210 = const :locX;
+            %tmp.211 = 220;
+            %tmp.212 = dup %tmp.208;
+            %tmp.213 = aputv %tmp.212 %tmp.210 %tmp.211;
+            %tmp.215 = const :locY;
+            %tmp.216 = 40;
+            %tmp.217 = dup %tmp.213;
+            %tmp.218 = aputv %tmp.217 %tmp.215 %tmp.216;
+            %tmp.220 = const :justification;
+            %tmp.221 = getm $.Toybox.Graphics;
+            %tmp.222 = getv %tmp.221 :TEXT_JUSTIFY_CENTER;
+            %tmp.223 = dup %tmp.218;
+            %tmp.224 = aputv %tmp.223 %tmp.220 %tmp.222;
+            %tmp.226 = const :font;
+            %tmp.227 = getm $.Toybox.Graphics;
+            %tmp.228 = getv %tmp.227 :FONT_XTINY;
+            %tmp.229 = dup %tmp.224;
+            %tmp.230 = aputv %tmp.229 %tmp.226 %tmp.228;
+            %tmp.199 = newc %tmp.202 (%tmp.230);
+            lputv %rez_cmp_local_text_FeelTemperature.7 %tmp.199;
+[ "Rez.mc" 58 0 ]
+            [ "Rez_mc_49_69_start" "Rez_mc_49_69_stop" ]
+            %rez_cmp_local_text_StepsAsText.8 = local;
+            %tmp.233 = getm $.Toybox.WatchUi;
+            %tmp.234 = getv function ? %tmp.233 :Text;
+            %tmp.235 = newd 6;
+            %tmp.237 = const :identifier;
+            %tmp.238 = "StepsAsText";
+            %tmp.239 = dup %tmp.235;
+            %tmp.240 = aputv %tmp.239 %tmp.237 %tmp.238;
+            %tmp.242 = const :color;
+            %tmp.243 = getm $.Toybox.Graphics;
+            %tmp.244 = getv %tmp.243 :COLOR_WHITE;
+            %tmp.245 = dup %tmp.240;
+            %tmp.246 = aputv %tmp.245 %tmp.242 %tmp.244;
+            %tmp.248 = const :locX;
+            %tmp.249 = 260;
+            %tmp.250 = 0.5;
+            %tmp.251 = mul %tmp.249 %tmp.250;
+            %tmp.252 = dup %tmp.246;
+            %tmp.253 = aputv %tmp.252 %tmp.248 %tmp.251;
+            %tmp.255 = const :locY;
+            %tmp.256 = 200;
+            %tmp.257 = dup %tmp.253;
+            %tmp.258 = aputv %tmp.257 %tmp.255 %tmp.256;
+            %tmp.260 = const :justification;
+            %tmp.261 = getm $.Toybox.Graphics;
+            %tmp.262 = getv %tmp.261 :TEXT_JUSTIFY_CENTER;
+            %tmp.263 = dup %tmp.258;
+            %tmp.264 = aputv %tmp.263 %tmp.260 %tmp.262;
+            %tmp.266 = const :font;
+            %tmp.267 = getm $.Toybox.Graphics;
+            %tmp.268 = getv %tmp.267 :FONT_XTINY;
+            %tmp.269 = dup %tmp.264;
+            %tmp.270 = aputv %tmp.269 %tmp.266 %tmp.268;
+            %tmp.231 = newc %tmp.234 (%tmp.270);
+            lputv %rez_cmp_local_text_StepsAsText.8 %tmp.231;
+[ "Rez.mc" 60 8 ]
+            %tmp.271 = newa Array<WatchUi.Drawable> 8;
+            %tmp.273 = lgetv %rez_cmp_local_custom_drawable_35401248939547197219.1;
+            %tmp.274 = dup %tmp.271;
+            %tmp.275 = aputv %tmp.274 0 %tmp.273;
+            %tmp.277 = lgetv %rez_cmp_local_text_TimeLabel.2;
+            %tmp.278 = dup %tmp.275;
+            %tmp.279 = aputv %tmp.278 1 %tmp.277;
+            %tmp.281 = lgetv %rez_cmp_local_text_Battery.3;
+            %tmp.282 = dup %tmp.279;
+            %tmp.283 = aputv %tmp.282 2 %tmp.281;
+            %tmp.285 = lgetv %rez_cmp_local_text_DateLabel.4;
+            %tmp.286 = dup %tmp.283;
+            %tmp.287 = aputv %tmp.286 3 %tmp.285;
+            %tmp.289 = lgetv %rez_cmp_local_text_Steps.5;
+            %tmp.290 = dup %tmp.287;
+            %tmp.291 = aputv %tmp.290 4 %tmp.289;
+            %tmp.293 = lgetv %rez_cmp_local_text_DrawingRectangle.6;
+            %tmp.294 = dup %tmp.291;
+            %tmp.295 = aputv %tmp.294 5 %tmp.293;
+            %tmp.297 = lgetv %rez_cmp_local_text_FeelTemperature.7;
+            %tmp.298 = dup %tmp.295;
+            %tmp.299 = aputv %tmp.298 6 %tmp.297;
+            %tmp.301 = lgetv %rez_cmp_local_text_StepsAsText.8;
+            %tmp.302 = dup %tmp.299;
+            %tmp.303 = aputv %tmp.302 7 %tmp.301;
+            ret %tmp.303;
+Rez_mc_49_69_stop:
+        }
+    }
+    [ @file = "Rez.mc"; @line = 65; ]
+    module Menus {
+        [ @file = "Rez.mc"; @line = 65; ]
+        <init> {
+        }
+    }
+    [ @file = "Rez.mc"; @line = 67; ]
+    module Strings {
+        [ @file = "Rez.mc"; @line = 67; ]
+        <init> {
+        }
+        [ @file = "Rez.mc"; @line = 68; ]
+        import Toybox.Lang;
+        [ @file = "Rez.mc"; @line = 69; @position = 19; initialized = true; ]
+        var dkredCol as Symbol;
+        [ @file = "Rez.mc"; @line = 70; @position = 19; initialized = true; ]
+        var ColorBlue as Symbol;
+        [ @file = "Rez.mc"; @line = 71; @position = 19; initialized = true; ]
+        var dkgreenCol as Symbol;
+        [ @file = "Rez.mc"; @line = 72; @position = 19; initialized = true; ]
+        var yellowCol as Symbol;
+        [ @file = "Rez.mc"; @line = 73; @position = 19; initialized = true; ]
+        var BackgroundColorTitle as Symbol;
+        [ @file = "Rez.mc"; @line = 74; @position = 19; initialized = true; ]
+        var purpleCol as Symbol;
+        [ @file = "Rez.mc"; @line = 75; @position = 19; initialized = true; ]
+        var greenCol as Symbol;
+        [ @file = "Rez.mc"; @line = 76; @position = 19; initialized = true; ]
+        var tempPrompt as Symbol;
+        [ @file = "Rez.mc"; @line = 77; @position = 19; initialized = true; ]
+        var stepTitleGoal as Symbol;
+        [ @file = "Rez.mc"; @line = 78; @position = 19; initialized = true; ]
+        var stepColorLoadingPrompt as Symbol;
+        [ @file = "Rez.mc"; @line = 79; @position = 19; initialized = true; ]
+        var blueCol as Symbol;
+        [ @file = "Rez.mc"; @line = 80; @position = 19; initialized = true; ]
+        var battery as Symbol;
+        [ @file = "Rez.mc"; @line = 81; @position = 19; initialized = true; ]
+        var pinkCol as Symbol;
+        [ @file = "Rez.mc"; @line = 82; @position = 19; initialized = true; ]
+        var orangeCol as Symbol;
+        [ @file = "Rez.mc"; @line = 83; @position = 19; initialized = true; ]
+        var AppName as Symbol;
+        [ @file = "Rez.mc"; @line = 84; @position = 19; initialized = true; ]
+        var ColorRed as Symbol;
+        [ @file = "Rez.mc"; @line = 85; @position = 19; initialized = true; ]
+        var DateTitle as Symbol;
+        [ @file = "Rez.mc"; @line = 86; @position = 19; initialized = true; ]
+        var ColorWhite as Symbol;
+        [ @file = "Rez.mc"; @line = 87; @position = 19; initialized = true; ]
+        var stepPromptGoal as Symbol;
+        [ @file = "Rez.mc"; @line = 88; @position = 19; initialized = true; ]
+        var DatePrompt as Symbol;
+        [ @file = "Rez.mc"; @line = 89; @position = 19; initialized = true; ]
+        var stepPrompt as Symbol;
+        [ @file = "Rez.mc"; @line = 90; @position = 19; initialized = true; ]
+        var ColorLightGray as Symbol;
+        [ @file = "Rez.mc"; @line = 91; @position = 19; initialized = true; ]
+        var stepColorLoadingTitle as Symbol;
+        [ @file = "Rez.mc"; @line = 92; @position = 19; initialized = true; ]
+        var temp as Symbol;
+        [ @file = "Rez.mc"; @line = 93; @position = 19; initialized = true; ]
+        var ColorDarkGray as Symbol;
+        [ @file = "Rez.mc"; @line = 94; @position = 19; initialized = true; ]
+        var dkgrayCol as Symbol;
+        [ @file = "Rez.mc"; @line = 95; @position = 19; initialized = true; ]
+        var whiteCol as Symbol;
+        [ @file = "Rez.mc"; @line = 96; @position = 19; initialized = true; ]
+        var MilitaryFormatTitle as Symbol;
+        [ @file = "Rez.mc"; @line = 97; @position = 19; initialized = true; ]
+        var batteryPrompt as Symbol;
+        [ @file = "Rez.mc"; @line = 98; @position = 19; initialized = true; ]
+        var stepTitle as Symbol;
+        [ @file = "Rez.mc"; @line = 99; @position = 19; initialized = true; ]
+        var ColorBlack as Symbol;
+        [ @file = "Rez.mc"; @line = 100; @position = 19; initialized = true; ]
+        var redCol as Symbol;
+        [ @file = "Rez.mc"; @line = 101; @position = 19; initialized = true; ]
+        var clock as Symbol;
+        [ @file = "Rez.mc"; @line = 102; @position = 19; initialized = true; ]
+        var ColorDate as Symbol;
+        [ @file = "Rez.mc"; @line = 103; @position = 19; initialized = true; ]
+        var ForegroundColorTitle as Symbol;
+        [ @file = "Rez.mc"; @line = 104; @position = 19; initialized = true; ]
+        var clockPrompt as Symbol;
+        [ @file = "Rez.mc"; @line = 105; @position = 19; initialized = true; ]
+        var ltgrayCol as Symbol;
+        [ @file = "Rez.mc"; @line = 106; @position = 19; initialized = true; ]
+        var dkblueCol as Symbol;
+        [ @file = "Rez.mc"; @line = 107; @position = 19; initialized = true; ]
+        var blackCol as Symbol;
+    }
+}
+[ @file = "Rez.mc"; @line = 1; ]
+<init> {
+}

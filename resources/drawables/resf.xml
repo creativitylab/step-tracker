@@ -1,0 +1,8 @@
+<resources>
+    <drawable-list id="Smiley" background="Gfx.COLOR_YELLOW">
+        <shape type="circle" x="60" y="40" radius="50" color="Gfx.COLOR_BLUE" />
+        <shape type="circle" x="center" y="center"  radius="50" color="Gfx.COLOR_BLUE" />
+    </drawable-list>
+
+    
+</resources>

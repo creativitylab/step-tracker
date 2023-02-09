@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="D:\projects\garmin\watch-face\watch1\three\watch3\manifest.xml"/>
+<pcToLineNum>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3App.mc" id="1" lineNum="31" parent="globals" pc="268435460" symbol="getApp"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3App.mc" id="1" lineNum="32" parent="globals" pc="268435470" symbol="getApp"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3Background.mc" id="2" lineNum="6" parent="globals/Background" pc="268435486" symbol="&lt;init&gt;"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3Background.mc" id="3" lineNum="8" parent="globals/Background" pc="268435505" symbol="initialize"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3Background.mc" id="3" lineNum="9" parent="globals/Background" pc="268435509" symbol="initialize"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3Background.mc" id="3" lineNum="13" parent="globals/Background" pc="268435530" symbol="initialize"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3Background.mc" id="4" lineNum="16" parent="globals/Background" pc="268435551" symbol="draw"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3Background.mc" id="4" lineNum="18" parent="globals/Background" pc="268435553" symbol="draw"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3Background.mc" id="4" lineNum="19" parent="globals/Background" pc="268435595" symbol="draw"/>
+<entry filename="Rez.mc" id="5" lineNum="1" parent="globals/Rez" pc="268435608" symbol="&lt;init&gt;"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3App.mc" id="6" lineNum="5" parent="globals/watch3App" pc="268435632" symbol="&lt;init&gt;"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3App.mc" id="7" lineNum="12" parent="globals/watch3App" pc="268435651" symbol="onStart"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3App.mc" id="8" lineNum="25" parent="globals/watch3App" pc="268435654" symbol="onSettingsChanged"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3App.mc" id="8" lineNum="26" parent="globals/watch3App" pc="268435656" symbol="onSettingsChanged"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3App.mc" id="9" lineNum="20" parent="globals/watch3App" pc="268435673" symbol="getInitialView"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3App.mc" id="9" lineNum="21" parent="globals/watch3App" pc="268435675" symbol="getInitialView"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3App.mc" id="10" lineNum="7" parent="globals/watch3App" pc="268435716" symbol="initialize"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3App.mc" id="10" lineNum="8" parent="globals/watch3App" pc="268435718" symbol="initialize"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3App.mc" id="11" lineNum="16" parent="globals/watch3App" pc="268435737" symbol="onStop"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="12" lineNum="18" parent="globals/watch3View" pc="268435740" symbol="&lt;init&gt;"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="216" parent="globals/watch3View" pc="268435759" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="217" parent="globals/watch3View" pc="268435763" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="219" parent="globals/watch3View" pc="268435786" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="220" parent="globals/watch3View" pc="268435808" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="222" parent="globals/watch3View" pc="268435830" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="223" parent="globals/watch3View" pc="268435837" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="224" parent="globals/watch3View" pc="268435862" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="229" parent="globals/watch3View" pc="268435887" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="231" parent="globals/watch3View" pc="268435917" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="232" parent="globals/watch3View" pc="268435947" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="234" parent="globals/watch3View" pc="268435964" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="235" parent="globals/watch3View" pc="268435984" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="237" parent="globals/watch3View" pc="268436017" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="239" parent="globals/watch3View" pc="268436045" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="248" parent="globals/watch3View" pc="268436111" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="249" parent="globals/watch3View" pc="268436136" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="251" parent="globals/watch3View" pc="268436159" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="253" parent="globals/watch3View" pc="268436193" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="254" parent="globals/watch3View" pc="268436210" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="255" parent="globals/watch3View" pc="268436236" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="257" parent="globals/watch3View" pc="268436269" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="258" parent="globals/watch3View" pc="268436300" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="259" parent="globals/watch3View" pc="268436326" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="261" parent="globals/watch3View" pc="268436359" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="13" lineNum="264" parent="globals/watch3View" pc="268436390" symbol="drawSteps"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="14" lineNum="138" parent="globals/watch3View" pc="268436460" symbol="drawTemperature"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="14" lineNum="139" parent="globals/watch3View" pc="268436464" symbol="drawTemperature"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="14" lineNum="142" parent="globals/watch3View" pc="268436498" symbol="drawTemperature"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="14" lineNum="143" parent="globals/watch3View" pc="268436521" symbol="drawTemperature"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="14" lineNum="147" parent="globals/watch3View" pc="268436564" symbol="drawTemperature"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="14" lineNum="148" parent="globals/watch3View" pc="268436580" symbol="drawTemperature"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="14" lineNum="149" parent="globals/watch3View" pc="268436587" symbol="drawTemperature"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="16" lineNum="153" parent="globals/watch3View" pc="268436617" symbol="drawClock"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="16" lineNum="154" parent="globals/watch3View" pc="268436621" symbol="drawClock"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="16" lineNum="160" parent="globals/watch3View" pc="268436663" symbol="drawClock"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="16" lineNum="161" parent="globals/watch3View" pc="268436670" symbol="drawClock"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="16" lineNum="162" parent="globals/watch3View" pc="268436687" symbol="drawClock"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="16" lineNum="163" parent="globals/watch3View" pc="268436697" symbol="drawClock"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="16" lineNum="164" parent="globals/watch3View" pc="268436722" symbol="drawClock"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="16" lineNum="165" parent="globals/watch3View" pc="268436733" symbol="drawClock"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="16" lineNum="168" parent="globals/watch3View" pc="268436749" symbol="drawClock"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="16" lineNum="169" parent="globals/watch3View" pc="268436777" symbol="drawClock"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="16" lineNum="170" parent="globals/watch3View" pc="268436784" symbol="drawClock"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="16" lineNum="173" parent="globals/watch3View" pc="268436805" symbol="drawClock"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="16" lineNum="178" parent="globals/watch3View" pc="268436870" symbol="drawClock"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="16" lineNum="187" parent="globals/watch3View" pc="268436928" symbol="drawClock"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="19" lineNum="68" parent="globals/watch3View" pc="268436943" symbol="onLayout"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="19" lineNum="69" parent="globals/watch3View" pc="268436945" symbol="onLayout"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="19" lineNum="71" parent="globals/watch3View" pc="268436986" symbol="onLayout"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="19" lineNum="72" parent="globals/watch3View" pc="268437005" symbol="onLayout"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="19" lineNum="74" parent="globals/watch3View" pc="268437024" symbol="onLayout"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="19" lineNum="76" parent="globals/watch3View" pc="268437046" symbol="onLayout"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="19" lineNum="78" parent="globals/watch3View" pc="268437086" symbol="onLayout"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="19" lineNum="79" parent="globals/watch3View" pc="268437099" symbol="onLayout"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="19" lineNum="80" parent="globals/watch3View" pc="268437115" symbol="onLayout"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="19" lineNum="81" parent="globals/watch3View" pc="268437128" symbol="onLayout"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="19" lineNum="83" parent="globals/watch3View" pc="268437144" symbol="onLayout"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="19" lineNum="84" parent="globals/watch3View" pc="268437175" symbol="onLayout"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="19" lineNum="85" parent="globals/watch3View" pc="268437200" symbol="onLayout"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="19" lineNum="86" parent="globals/watch3View" pc="268437240" symbol="onLayout"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="20" lineNum="282" parent="globals/watch3View" pc="268437281" symbol="clear"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="20" lineNum="283" parent="globals/watch3View" pc="268437283" symbol="clear"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="20" lineNum="284" parent="globals/watch3View" pc="268437305" symbol="clear"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="21" lineNum="287" parent="globals/watch3View" pc="268437318" symbol="getAngle"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="21" lineNum="288" parent="globals/watch3View" pc="268437320" symbol="getAngle"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="23" lineNum="122" parent="globals/watch3View" pc="268437338" symbol="drawBattery"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="23" lineNum="123" parent="globals/watch3View" pc="268437340" symbol="drawBattery"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="23" lineNum="124" parent="globals/watch3View" pc="268437363" symbol="drawBattery"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="23" lineNum="125" parent="globals/watch3View" pc="268437385" symbol="drawBattery"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="23" lineNum="126" parent="globals/watch3View" pc="268437425" symbol="drawBattery"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="23" lineNum="129" parent="globals/watch3View" pc="268437459" symbol="drawBattery"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="23" lineNum="131" parent="globals/watch3View" pc="268437502" symbol="drawBattery"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="23" lineNum="132" parent="globals/watch3View" pc="268437519" symbol="drawBattery"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="24" lineNum="60" parent="globals/watch3View" pc="268437549" symbol="initialize"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="24" lineNum="61" parent="globals/watch3View" pc="268437551" symbol="initialize"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="24" lineNum="63" parent="globals/watch3View" pc="268437569" symbol="initialize"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="24" lineNum="64" parent="globals/watch3View" pc="268437582" symbol="initialize"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="25" lineNum="95" parent="globals/watch3View" pc="268437596" symbol="onUpdate"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="25" lineNum="101" parent="globals/watch3View" pc="268437598" symbol="onUpdate"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="25" lineNum="103" parent="globals/watch3View" pc="268437622" symbol="onUpdate"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="25" lineNum="104" parent="globals/watch3View" pc="268437636" symbol="onUpdate"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="25" lineNum="108" parent="globals/watch3View" pc="268437650" symbol="onUpdate"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="26" lineNum="190" parent="globals/watch3View" pc="268437663" symbol="drawDate"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="26" lineNum="191" parent="globals/watch3View" pc="268437667" symbol="drawDate"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="26" lineNum="193" parent="globals/watch3View" pc="268437695" symbol="drawDate"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="26" lineNum="197" parent="globals/watch3View" pc="268437732" symbol="drawDate"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="26" lineNum="198" parent="globals/watch3View" pc="268437769" symbol="drawDate"/>
+<entry filename="D:\\projects\\garmin\\watch-face\\watch1\\three\\watch3\\source\\watch3View.mc" id="26" lineNum="206" parent="globals/watch3View" pc="268437845" symbol="drawDate"/>
+<entry filename="Rez.mc" id="27" lineNum="10" parent="globals/Rez/Drawables/Smiley" pc="268437892" symbol="&lt;init&gt;"/>
+<entry filename="Rez.mc" id="28" lineNum="12" parent="globals/Rez/Drawables/Smiley" pc="268437911" symbol="initialize"/>
+<entry filename="Rez.mc" id="28" lineNum="13" parent="globals/Rez/Drawables/Smiley" pc="268437913" symbol="initialize"/>
+<entry filename="Rez.mc" id="29" lineNum="16" parent="globals/Rez/Drawables/Smiley" pc="268437938" symbol="draw"/>
+<entry filename="Rez.mc" id="29" lineNum="17" parent="globals/Rez/Drawables/Smiley" pc="268437940" symbol="draw"/>
+<entry filename="Rez.mc" id="29" lineNum="18" parent="globals/Rez/Drawables/Smiley" pc="268437951" symbol="draw"/>
+<entry filename="Rez.mc" id="29" lineNum="19" parent="globals/Rez/Drawables/Smiley" pc="268437963" symbol="draw"/>
+<entry filename="Rez.mc" id="29" lineNum="23" parent="globals/Rez/Drawables/Smiley" pc="268437970" symbol="draw"/>
+<entry filename="Rez.mc" id="29" lineNum="24" parent="globals/Rez/Drawables/Smiley" pc="268437992" symbol="draw"/>
+<entry filename="Rez.mc" id="29" lineNum="25" parent="globals/Rez/Drawables/Smiley" pc="268438024" symbol="draw"/>
+<entry filename="Rez.mc" id="29" lineNum="27" parent="globals/Rez/Drawables/Smiley" pc="268438046" symbol="draw"/>
+<entry filename="Rez.mc" id="29" lineNum="28" parent="globals/Rez/Drawables/Smiley" pc="268438068" symbol="draw"/>
+<entry filename="Rez.mc" id="29" lineNum="30" parent="globals/Rez/Drawables/Smiley" pc="268438095" symbol="draw"/>
+<entry filename="Rez.mc" id="29" lineNum="31" parent="globals/Rez/Drawables/Smiley" pc="268438117" symbol="draw"/>
+<entry filename="Rez.mc" id="30" lineNum="49" parent="globals/Rez/Layouts" pc="268438145" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="30" lineNum="51" parent="globals/Rez/Layouts" pc="268438157" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="30" lineNum="52" parent="globals/Rez/Layouts" pc="268438185" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="30" lineNum="53" parent="globals/Rez/Layouts" pc="268438320" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="30" lineNum="54" parent="globals/Rez/Layouts" pc="268438419" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="30" lineNum="55" parent="globals/Rez/Layouts" pc="268438518" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="30" lineNum="56" parent="globals/Rez/Layouts" pc="268438630" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="30" lineNum="57" parent="globals/Rez/Layouts" pc="268438742" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="30" lineNum="58" parent="globals/Rez/Layouts" pc="268438841" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="30" lineNum="60" parent="globals/Rez/Layouts" pc="268438953" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="24" method="true" symbol="drawDate"/>
+<entry id="27" method="true" symbol="getAngle"/>
+<entry id="7" module="true" symbol="globals/Rez/Menus"/>
+<entry field="true" id="60" symbol="blueCol"/>
+<entry field="true" id="79" symbol="temp"/>
+<entry id="23" method="true" symbol="drawClock"/>
+<entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry field="true" id="82" symbol="yellowCol"/>
+<entry field="true" id="52" symbol="ColorRed"/>
+<entry field="true" id="64" symbol="dkgrayCol"/>
+<entry field="true" id="21" symbol="dateFormat"/>
+<entry field="true" id="14" symbol="angle"/>
+<entry field="true" id="78" symbol="stepTitleGoal"/>
+<entry field="true" id="66" symbol="dkredCol"/>
+<entry field="true" id="57" symbol="MilitaryFormatTitle"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
+<entry field="true" id="35" symbol="scaleFactor"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="81" symbol="whiteCol"/>
+<entry field="true" id="76" symbol="stepPromptGoal"/>
+<entry field="true" id="48" symbol="ColorBlue"/>
+<entry field="true" id="45" symbol="AppName"/>
+<entry field="true" id="50" symbol="ColorDate"/>
+<entry field="true" id="71" symbol="purpleCol"/>
+<entry field="true" id="40" symbol="watchHeight"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry field="true" id="75" symbol="stepPrompt"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry field="true" id="8388724" symbol="battery"/>
+<entry field="true" id="8388912" symbol="steps"/>
+<entry field="true" id="62" symbol="clockPrompt"/>
+<entry field="true" id="70" symbol="pinkCol"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry field="true" id="8388913" symbol="stepGoal"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="54" symbol="DatePrompt"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry field="true" id="13" symbol="actinfo"/>
+<entry field="true" id="38" symbol="stepColor"/>
+<entry id="25" method="true" symbol="drawSteps"/>
+<entry field="true" id="32" symbol="minY"/>
+<entry field="true" id="31" symbol="minX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry id="44" object="true" symbol="Smiley"/>
+<entry id="12" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry field="true" id="49" symbol="ColorDarkGray"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="8389742" symbol="foregroundColor"/>
+<entry field="true" id="68" symbol="ltgrayCol"/>
+<entry id="10" object="true" symbol="watch3View"/>
+<entry field="true" id="8391300" method="true" symbol="isVisible"/>
+<entry id="22" method="true" symbol="drawBattery"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry field="true" id="15" symbol="arcAngle"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="55" symbol="DateTitle"/>
+<entry field="true" id="33" symbol="months"/>
+<entry field="true" id="28" symbol="lang"/>
+<entry field="true" id="53" symbol="ColorWhite"/>
+<entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+<entry field="true" id="77" symbol="stepTitle"/>
+<entry field="true" id="47" symbol="ColorBlack"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="8389177" method="true" symbol="clear"/>
+<entry field="true" id="74" symbol="stepColorLoadingTitle"/>
+<entry field="true" id="63" symbol="dkblueCol"/>
+<entry field="true" id="30" symbol="maxY"/>
+<entry field="true" id="29" symbol="maxX"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="42" symbol="weekdays"/>
+<entry field="true" id="58" symbol="batteryPrompt"/>
+<entry field="true" id="37" symbol="stepBarY"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="34" symbol="robotoFont"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry field="true" id="69" symbol="orangeCol"/>
+<entry field="true" id="43" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="17" symbol="batteryString"/>
+<entry field="true" id="39" symbol="viewCurrentWeather"/>
+<entry field="true" id="16" symbol="batteryDisplay"/>
+<entry field="true" id="72" symbol="redCol"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry field="true" id="46" symbol="BackgroundColorTitle"/>
+<entry field="true" id="73" symbol="stepColorLoadingPrompt"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8390146" module="true" object="true" symbol="Background"/>
+<entry field="true" id="19" symbol="centerY"/>
+<entry field="true" id="18" symbol="centerX"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="59" symbol="blackCol"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry field="true" id="51" symbol="ColorLightGray"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="80" symbol="tempPrompt"/>
+<entry id="8389347" symbol="color"/>
+<entry field="true" id="41" symbol="watchWidth"/>
+<entry field="true" id="56" symbol="ForegroundColorTitle"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry field="true" id="36" symbol="stats"/>
+<entry field="true" id="67" symbol="greenCol"/>
+<entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry field="true" id="8389743" symbol="backgroundColor"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="9" object="true" symbol="watch3App"/>
+<entry id="26" method="true" symbol="drawTemperature"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="61" symbol="clock"/>
+<entry field="true" id="20" symbol="currentWeatherConditions"/>
+<entry field="true" id="65" symbol="dkgreenCol"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435549" name="dictionary" stackId="1" startPc="268435509"/>
+<entry arg="true" endPc="268435607" name="dc" stackId="1" startPc="268435551"/>
+<entry arg="true" endPc="268436459" name="dc" stackId="1" startPc="268435759"/>
+<entry endPc="268436458" name="MINUTES_PER_HOUR" stackId="2" startPc="268435763"/>
+<entry endPc="268436458" name="myAngle" stackId="3" startPc="268435763"/>
+<entry endPc="268436458" name="arcRadius" stackId="4" startPc="268435763"/>
+<entry endPc="268436458" name="arcSteps" stackId="5" startPc="268436111"/>
+<entry endPc="268436615" name="curentTemperature" stackId="1" startPc="268436464"/>
+<entry arg="true" endPc="268436942" name="dc" stackId="1" startPc="268436617"/>
+<entry endPc="268436941" name="timeFormat" stackId="2" startPc="268436621"/>
+<entry endPc="268436941" name="clockTime" stackId="3" startPc="268436621"/>
+<entry endPc="268436941" name="hours" stackId="4" startPc="268436621"/>
+<entry endPc="268436941" name="timeString" stackId="5" startPc="268436621"/>
+<entry arg="true" endPc="268437280" name="dc" stackId="1" startPc="268436943"/>
+<entry arg="true" endPc="268437317" name="dc" stackId="1" startPc="268437281"/>
+<entry arg="true" endPc="268437337" name="value" stackId="1" startPc="268437318"/>
+<entry arg="true" endPc="268437337" name="maxValue" stackId="2" startPc="268437318"/>
+<entry arg="true" endPc="268437662" name="dc" stackId="1" startPc="268437596"/>
+<entry arg="true" endPc="268437891" name="dc" stackId="1" startPc="268437663"/>
+<entry endPc="268437890" name="viewDate" stackId="2" startPc="268437667"/>
+<entry endPc="268437890" name="today" stackId="3" startPc="268437667"/>
+<entry endPc="268437890" name="dateString" stackId="4" startPc="268437667"/>
+<entry arg="true" endPc="268438144" name="dc" stackId="1" startPc="268437938"/>
+<entry arg="true" endPc="268439039" name="dc" stackId="1" startPc="268438145"/>
+<entry endPc="268439039" name="rez_cmp_local_custom_drawable_35401248939547197219" stackId="2" startPc="268438157"/>
+<entry endPc="268439039" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268438157"/>
+<entry endPc="268439039" name="rez_cmp_local_text_Battery" stackId="4" startPc="268438157"/>
+<entry endPc="268439039" name="rez_cmp_local_text_DateLabel" stackId="5" startPc="268438157"/>
+<entry endPc="268439039" name="rez_cmp_local_text_Steps" stackId="6" startPc="268438157"/>
+<entry endPc="268439039" name="rez_cmp_local_text_DrawingRectangle" stackId="7" startPc="268438157"/>
+<entry endPc="268439039" name="rez_cmp_local_text_FeelTemperature" stackId="8" startPc="268438157"/>
+<entry endPc="268439039" name="rez_cmp_local_text_StepsAsText" stackId="9" startPc="268438157"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="clock"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="blueCol"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="whiteCol"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="pinkCol"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="stepColorLoadingPrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="battery"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="yellowCol"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DatePrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="stepPrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="dkblueCol"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="dkgreenCol"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="purpleCol"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDate"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="dkgrayCol"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="stepColorLoadingTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="temp"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DateTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="blackCol"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="clockPrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="greenCol"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="stepPromptGoal"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="dkredCol"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="stepTitleGoal"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ltgrayCol"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="redCol"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="batteryPrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="stepTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="tempPrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="orangeCol"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/Background" offset="166" parentId="globals" symbolId="Background" type="class"/>
+<dataEntry label="globals/Rez" offset="221" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/watch3App" offset="300" parentId="globals" symbolId="watch3App" type="class"/>
+<dataEntry label="globals/watch3View" offset="379" parentId="globals" symbolId="watch3View" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="762" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="809" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="848" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="879" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="910" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="1253" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/Rez/Drawables/Smiley" offset="1284" parentId="Drawables" symbolId="Smiley" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435504" name="&lt;init&gt;" parent="Background" startPc="268435486">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435550" name="initialize" parent="Background" startPc="268435505">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435607" name="draw" parent="Background" startPc="268435551">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435631" name="&lt;init&gt;" parent="Rez" startPc="268435608">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435650" name="&lt;init&gt;" parent="watch3App" startPc="268435632">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435653" name="onStart" parent="watch3App" startPc="268435651">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435672" name="onSettingsChanged" parent="watch3App" startPc="268435654">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435715" name="getInitialView" parent="watch3App" startPc="268435673">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435736" name="initialize" parent="watch3App" startPc="268435716">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435739" name="onStop" parent="watch3App" startPc="268435737">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435758" name="&lt;init&gt;" parent="watch3View" startPc="268435740">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436459" name="drawSteps" parent="watch3View" startPc="268435759">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436616" name="drawTemperature" parent="watch3View" startPc="268436460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="watch3View">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436942" name="drawClock" parent="watch3View" startPc="268436617">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="watch3View">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="watch3View">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437280" name="onLayout" parent="watch3View" startPc="268436943">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437317" name="clear" parent="watch3View" startPc="268437281">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Clear the screen<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437337" name="getAngle" parent="watch3View" startPc="268437318">
+<param id="value"/>
+<param id="maxValue"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="watch3View">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437548" name="drawBattery" parent="watch3View" startPc="268437338">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437595" name="initialize" parent="watch3View" startPc="268437549">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437662" name="onUpdate" parent="watch3View" startPc="268437596">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437891" name="drawDate" parent="watch3View" startPc="268437663">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437910" name="&lt;init&gt;" parent="Smiley" startPc="268437892">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437937" name="initialize" parent="Smiley" startPc="268437911">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438144" name="draw" parent="Smiley" startPc="268437938">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439039" name="WatchFace" parent="Layouts" startPc="268438145">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

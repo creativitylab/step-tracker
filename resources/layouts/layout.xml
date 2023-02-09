@@ -1,0 +1,11 @@
+<layout id="WatchFace">
+    <drawable class="Background" />
+    <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_NUMBER_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    <label id="Battery"         x="60" y="40"    font="Graphics.FONT_XTINY"           justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="DateLabel"         x="center" y="170"    font="Graphics.FONT_XTINY"           justification="Graphics.TEXT_JUSTIFY_CENTER"  />
+    <label id="Steps"         x="center" y="190"    font="Graphics.FONT_XTINY"           justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="DrawingRectangle"         x="center" y="250"    font="Graphics.FONT_XTINY"           justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="FeelTemperature"         x="220" y="40"    font="Graphics.FONT_XTINY"           justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="StepsAsText"         x="center" y="200"    font="Graphics.FONT_XTINY"           justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+
+</layout>

@@ -1,0 +1,28 @@
+<properties>
+
+    <property id="BackgroundColor" type="number">0x000000</property>
+    <property id="ForegroundColor" type="number">0xECB106</property>
+    <property id="UseMilitaryFormat" type="boolean">false</property>
+    <property id="ColorDate" type="number">0x83F159</property>
+
+<!--  -->
+
+<property id="ClockColor" type="number">0x76E24F</property>
+<!-- 
+<property id="StepsBarColor" type="number">0x76E24D</property>
+
+<property id="StepsAsText" type="boolean">false</property> -->
+<property id="TemperatureColorProp" type="number">0xF2A504</property>
+
+<property id="BatteryColorProp" type="number">0xF2A504</property>
+<property id="ClockColorProp" type="number">0xF2A504</property>
+<property id="DateColorProp" type="number">0xF2A504</property>
+
+
+<property id="StepsColor" type="number">0xFF0000</property>
+<property id="StepsColor2" type="number">0xFFFFFF</property>
+
+<property id="StepsColorGoalReached" type="number">0x00FF00</property>
+<property id="StepsColorLoading" type="number">0xF2A504</property>
+
+</properties>

@@ -1,0 +1,167 @@
+[ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc"; @line = 1; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc"; @line = 2; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc"; @line = 4; ]
+function clamp(value, max, min) {
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_4_32_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc" 5 3 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_5_3_if_stmt:
+    %tmp.2 = lgetv %value;
+    %tmp.4 = lgetv %max;
+    %tmp.5 = gt %tmp.2 %tmp.4;
+    bf %tmp.5 @D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_5_3_if_false;
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_5_3_if_true:
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_5_19_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc" 6 4 ]
+    %tmp.7 = lgetv %max;
+    ret %tmp.7;
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_5_19_stop:
+    goto @D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_5_3_if_end;
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_5_3_if_false:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc" 8 8 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_8_8_if_stmt:
+    %tmp.9 = lgetv %value;
+    %tmp.11 = lgetv %min;
+    %tmp.12 = lt %tmp.9 %tmp.11;
+    bf %tmp.12 @D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_8_8_if_end;
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_8_8_if_true:
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_8_24_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc" 9 4 ]
+    %tmp.14 = lgetv %min;
+    ret %tmp.14;
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_8_24_stop:
+    goto @D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_8_8_if_end;
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_8_8_if_end:
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_5_3_if_end:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc" 11 3 ]
+    %tmp.16 = lgetv %value;
+    ret %tmp.16;
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_4_32_stop:
+}
+[ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc"; @line = 14; ]
+class ProgressBar extends Ui.Drawable{
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc"; @line = 14; ]
+    <init> {
+    }
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc"; @line = 14; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc"; @line = 16; @position = 15; ]
+    protected
+    var color;
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc"; @line = 16; @position = 22; ]
+    protected
+    var locX;
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc"; @line = 16; @position = 28; ]
+    protected
+    var locY;
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc"; @line = 16; @position = 34; ]
+    protected
+    var width;
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc"; @line = 16; @position = 41; ]
+    protected
+    var height;
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc"; @line = 16; @position = 49; ]
+    protected
+    var percentage;
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc"; @line = 18; ]
+    function initialize(params) as Void {
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_18_32_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc" 19 8 ]
+        %tmp.2 = getv ? :Drawable;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.5 = lgetv %params;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc" 21 8 ]
+        %tmp.6 = lgetv %params;
+        %tmp.7 = getv function %tmp.6 :get;
+        %tmp.9 = const :color;
+        %tmp.10 = invoke %tmp.6 %tmp.7(%tmp.9);
+        putv self :color %tmp.10;
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc" 22 8 ]
+        %tmp.11 = 220;
+        putv self :locX %tmp.11;
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc" 23 8 ]
+        %tmp.12 = 40;
+        putv self :locY %tmp.12;
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc" 24 8 ]
+        %tmp.13 = lgetv %params;
+        %tmp.14 = getv function %tmp.13 :get;
+        %tmp.16 = const :width;
+        %tmp.17 = invoke %tmp.13 %tmp.14(%tmp.16);
+        putv self :width %tmp.17;
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc" 25 8 ]
+        %tmp.18 = lgetv %params;
+        %tmp.19 = getv function %tmp.18 :get;
+        %tmp.21 = const :height;
+        %tmp.22 = invoke %tmp.18 %tmp.19(%tmp.21);
+        putv self :height %tmp.22;
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc" 26 8 ]
+        %tmp.23 = 0.0;
+        putv self :percentage %tmp.23;
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_18_32_stop:
+    }
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc"; @line = 29; ]
+    function setPercent(value) {
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_29_31_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc" 30 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :clamp;
+        %tmp.4 = lgetv %value;
+        %tmp.5 = 1.0;
+        %tmp.6 = 0.0;
+        %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.4, %tmp.5, %tmp.6);
+        putv self :percentage %tmp.7;
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_29_31_stop:
+    }
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc"; @line = 33; ]
+    function draw(dc) {
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_33_22_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc" 34 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.3 = getm $.Toybox.Graphics;
+        %tmp.4 = getv %tmp.3 :COLOR_LT_GRAY;
+        %tmp.5 = getm $.Toybox.Graphics;
+        %tmp.6 = getv %tmp.5 :COLOR_LT_GRAY;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc" 35 8 ]
+        %tmp.7 = lgetv %dc;
+        %tmp.8 = getv function %tmp.7 :drawRectangle;
+        %tmp.10 = getv ? :locX;
+        %tmp.12 = getv ? :locY;
+        %tmp.14 = getv ? :width;
+        %tmp.16 = getv ? :height;
+        invoke %tmp.7 %tmp.8(%tmp.10, %tmp.12, %tmp.14, %tmp.16);
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc" 36 8 ]
+        %tmp.17 = lgetv %dc;
+        %tmp.18 = getv function %tmp.17 :setColor;
+        %tmp.20 = getv ? :color;
+        %tmp.22 = getv ? :color;
+        invoke %tmp.17 %tmp.18(%tmp.20, %tmp.22);
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc" 37 8 ]
+        %tmp.23 = lgetv %dc;
+        %tmp.24 = getv function %tmp.23 :fillRectangle;
+        %tmp.26 = getv ? :locX;
+        %tmp.27 = 2;
+        %tmp.28 = add %tmp.26 %tmp.27;
+        %tmp.30 = getv ? :locY;
+        %tmp.31 = 2;
+        %tmp.32 = add %tmp.30 %tmp.31;
+        %tmp.34 = getv ? :width;
+        %tmp.35 = 4;
+        %tmp.36 = sub %tmp.34 %tmp.35;
+        %tmp.38 = getv ? :percentage;
+        %tmp.39 = mul %tmp.36 %tmp.38;
+        %tmp.41 = getv ? :height;
+        %tmp.42 = 4;
+        %tmp.43 = sub %tmp.41 %tmp.42;
+        invoke %tmp.23 %tmp.24(%tmp.28, %tmp.32, %tmp.39, %tmp.43);
+D_projects_garmin_watch_face_watch1_three_watch3_source_ProgressBar_mc_33_22_stop:
+    }
+}
+[ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\ProgressBar.mc"; @line = 1; ]
+<init> {
+}

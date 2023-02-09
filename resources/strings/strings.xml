@@ -1,0 +1,76 @@
+<strings>
+
+    <string id="AppName">watch3</string>
+
+    <string id="BackgroundColorTitle">Background Color</string>
+    <string id="ForegroundColorTitle">Foreground Color</string>
+    <string id="MilitaryFormatTitle">Military Format for 24 Hour Time</string>
+
+    <string id="ColorBlack">Black</string>
+    <string id="ColorDarkGray">Dark Gray</string>
+    <string id="ColorLightGray">Light Gray</string>
+    <string id="ColorWhite">White</string>
+    <string id="ColorBlue">Blue</string>
+    <string id="ColorRed">Red</string>
+    <string id="ColorDate">Color Date</string>
+
+
+    <!--  -->
+    <!-- <string id="ClockColorTitle">Clock color</string>
+    <string id="ClockColorPrompt">Select clock color</string>
+    <string id="White">White</string>
+    <string id="Black">Black</string>
+    <string id="White">White</string>
+    <string id="Blue">Blue</string>
+    <string id="Green">Green</string>
+    <string id="Red">Red</string>
+    <string id="Yellow">Yellow</string> -->
+
+    <!--  -->
+    <!-- <string id="StepsBarColorTitle">Steps bar color</string>
+    <string id="StepsBarColorPrompt">Select steps bar color</string>
+    <string id="StepsAsTextTitle">Show steps as text</string>
+    <string id="ShowNotificationsTitle">Show notifications</string>
+    <string id="ClockColorTitle">Clock color</string>
+    <string id="ClockColorPrompt">Select clock color</string> -->
+    <string id="tempPrompt">Pick a color for temperature</string>
+    <string id="batteryPrompt">Pick a color for battery</string>
+    <string id="battery">Battery</string>
+    <string id="temp">Temperature</string>
+
+    <string id="clockPrompt">Pick a color for clock</string>
+    <string id="clock">Time</string>
+
+    
+    <string id="DatePrompt">Pick a color for date</string>
+    <string id="DateTitle">Date</string>
+
+        
+    <string id="stepPrompt">Pick a color for critical step circle</string>
+    <string id="stepTitle">Critical step circle</string>
+
+            
+    <string id="stepPromptGoal">Pick a color for step achieved</string>
+    <string id="stepTitleGoal">Step goal achieved</string>
+
+                
+    <string id="stepColorLoadingPrompt">Pick a color for half goal steps achieved</string>
+    <string id="stepColorLoadingTitle">Step goal over half goal</string>
+
+    <string id="blackCol">black</string>
+	<string id="whiteCol">white</string>
+	<string id="ltgrayCol">light gray</string>
+	<string id="dkgrayCol">dark gray</string>
+	<string id="blueCol">blue</string>
+	<string id="dkblueCol">dark blue</string>
+	<string id="pinkCol">pink</string>
+	<string id="redCol">red</string>
+	<string id="greenCol">green</string>
+	<string id="orangeCol">orange</string>
+	<string id="dkredCol">dark red</string>
+	<string id="yellowCol">yellow</string>
+	<string id="dkgreenCol">dark green</string>
+	<string id="purpleCol">purple</string>
+
+    
+</strings>
