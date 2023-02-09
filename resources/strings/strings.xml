@@ -33,29 +33,29 @@
     <string id="ShowNotificationsTitle">Show notifications</string>
     <string id="ClockColorTitle">Clock color</string>
     <string id="ClockColorPrompt">Select clock color</string> -->
-    <string id="tempPrompt">Pick a color for temperature</string>
+    <!-- <string id="tempPrompt">Pick a color for temperature</string> -->
     <string id="batteryPrompt">Pick a color for battery</string>
-    <string id="battery">Battery</string>
-    <string id="temp">Temperature</string>
+    <string id="battery">Battery-Color</string>
+    <!-- <string id="temp">Temperature</string> -->
 
     <string id="clockPrompt">Pick a color for clock</string>
-    <string id="clock">Time</string>
+    <string id="clock">Time-Color</string>
 
     
     <string id="DatePrompt">Pick a color for date</string>
-    <string id="DateTitle">Date</string>
+    <string id="DateTitle">Date-Color</string>
 
         
     <string id="stepPrompt">Pick a color for critical step circle</string>
-    <string id="stepTitle">Critical step circle</string>
+    <string id="stepTitle">Critical step circle-Color</string>
 
             
     <string id="stepPromptGoal">Pick a color for step achieved</string>
-    <string id="stepTitleGoal">Step goal achieved</string>
+    <string id="stepTitleGoal">Step goal achieved-Color</string>
 
                 
     <string id="stepColorLoadingPrompt">Pick a color for half goal steps achieved</string>
-    <string id="stepColorLoadingTitle">Step goal over half goal</string>
+    <string id="stepColorLoadingTitle">Step goal over half goal-Color</string>
 
     <string id="blackCol">black</string>
 	<string id="whiteCol">white</string>

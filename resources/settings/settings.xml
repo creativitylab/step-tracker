@@ -29,7 +29,7 @@
  
 <!--  -->
 
-<setting propertyKey="@Properties.TemperatureColorProp" title="@Strings.temp"
+<!-- <setting propertyKey="@Properties.TemperatureColorProp" title="@Strings.temp"
 		prompt="@Strings.tempPrompt">
 		<settingConfig type="list">
 			<listEntry value="0x000000">@Strings.blackCol</listEntry>
@@ -48,7 +48,7 @@
 			<listEntry value="0xAA00FF">@Strings.purpleCol</listEntry>
 
 		</settingConfig>
-	</setting>
+	</setting> -->
 
 <!--  -->
 <setting propertyKey="@Properties.BatteryColorProp" title="@Strings.battery"

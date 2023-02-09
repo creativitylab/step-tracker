@@ -100,20 +100,28 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_60_24_star
         %tmp.2 = getv ? :WatchFace;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 62 4 ]
+        %tmp.4 = self;
+        %tmp.5 = getv function %tmp.4 :getApp;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        %tmp.7 = getv function %tmp.6 :getProperty;
+        %tmp.8 = "ForegroundColor";
+        %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
+        putv self :foregroundColor %tmp.9;
 [ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 63 4 ]
-        %tmp.4 = getm $.Toybox.Graphics;
-        %tmp.5 = getv %tmp.4 :COLOR_WHITE;
-        putv self :foregroundColor %tmp.5;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 64 4 ]
-        %tmp.6 = getm $.Toybox.Graphics;
-        %tmp.7 = getv %tmp.6 :COLOR_BLACK;
-        putv self :backgroundColor %tmp.7;
+        %tmp.10 = self;
+        %tmp.11 = getv function %tmp.10 :getApp;
+        %tmp.12 = invoke %tmp.10 %tmp.11();
+        %tmp.13 = getv function %tmp.12 :getProperty;
+        %tmp.14 = "BackgroundColor";
+        %tmp.15 = invoke %tmp.12 %tmp.13(%tmp.14);
+        putv self :backgroundColor %tmp.15;
 D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_60_24_stop:
     }
-    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 68; ]
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 70; ]
     function onLayout(dc as Dc) as Void {
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_68_38_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 69 4 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_70_38_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 71 4 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setLayout;
         %tmp.4 = getv ? :Rez;
@@ -122,22 +130,22 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_68_38_star
         %tmp.8 = lgetv %dc;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.9);
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 71 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 73 4 ]
         %tmp.10 = lgetv %dc;
         %tmp.11 = getv function %tmp.10 :getHeight;
         %tmp.12 = invoke %tmp.10 %tmp.11();
         putv self :watchHeight %tmp.12;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 72 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 74 4 ]
         %tmp.13 = lgetv %dc;
         %tmp.14 = getv function %tmp.13 :getWidth;
         %tmp.15 = invoke %tmp.13 %tmp.14();
         putv self :watchWidth %tmp.15;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 74 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 76 4 ]
         %tmp.17 = getv ? :watchHeight;
         %tmp.18 = 180.0;
         %tmp.19 = div %tmp.17 %tmp.18;
         putv self :scaleFactor %tmp.19;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 76 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 78 4 ]
         %tmp.21 = getv ? :watchHeight;
         %tmp.23 = getv ? :watchHeight;
         %tmp.24 = 0.15;
@@ -146,31 +154,31 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_68_38_star
         %tmp.28 = mul %tmp.25 %tmp.27;
         %tmp.29 = sub %tmp.21 %tmp.28;
         putv self :stepBarY %tmp.29;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 78 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 80 4 ]
         %tmp.30 = 0;
         putv self :minX %tmp.30;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 79 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 81 4 ]
         %tmp.32 = getv ? :watchWidth;
         putv self :maxX %tmp.32;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 80 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 82 4 ]
         %tmp.33 = 0;
         putv self :minY %tmp.33;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 81 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 83 4 ]
         %tmp.35 = getv ? :watchHeight;
         putv self :maxY %tmp.35;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 83 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 85 4 ]
         %tmp.37 = getv ? :maxX;
         %tmp.39 = getv ? :maxY;
         %tmp.40 = sub %tmp.37 %tmp.39;
         %tmp.41 = 2;
         %tmp.42 = div %tmp.40 %tmp.41;
         putv self :minX %tmp.42;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 84 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 86 4 ]
         %tmp.44 = getv ? :minX;
         %tmp.46 = getv ? :maxY;
         %tmp.47 = add %tmp.44 %tmp.46;
         putv self :maxX %tmp.47;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 85 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 87 4 ]
         %tmp.49 = getv ? :maxX;
         %tmp.51 = getv ? :minX;
         %tmp.52 = sub %tmp.49 %tmp.51;
@@ -179,7 +187,7 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_68_38_star
         %tmp.56 = getv ? :minX;
         %tmp.57 = add %tmp.54 %tmp.56;
         putv self :centerX %tmp.57;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 86 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 88 4 ]
         %tmp.59 = getv ? :maxY;
         %tmp.61 = getv ? :minY;
         %tmp.62 = sub %tmp.59 %tmp.61;
@@ -188,57 +196,57 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_68_38_star
         %tmp.66 = getv ? :minY;
         %tmp.67 = add %tmp.64 %tmp.66;
         putv self :centerY %tmp.67;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_68_38_stop:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_70_38_stop:
     }
-    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 92; ]
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 94; ]
     function onShow() as Void {
     }
-    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 95; ]
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 97; ]
     function onUpdate(dc as Dc) as Void {
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_95_38_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 101 4 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_97_38_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 103 4 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :onUpdate;
         %tmp.5 = lgetv %dc;
         invoke %tmp.2 %tmp.3(%tmp.5);
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 103 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 105 4 ]
         %tmp.6 = self;
         %tmp.7 = getv function %tmp.6 :drawClock;
         %tmp.9 = lgetv %dc;
         invoke %tmp.6 %tmp.7(%tmp.9);
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 104 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 106 4 ]
         %tmp.10 = self;
         %tmp.11 = getv function %tmp.10 :drawSteps;
         %tmp.13 = lgetv %dc;
         invoke %tmp.10 %tmp.11(%tmp.13);
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 108 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 110 4 ]
         %tmp.14 = self;
         %tmp.15 = getv function %tmp.14 :drawBattery;
         invoke %tmp.14 %tmp.15();
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_95_38_stop:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_97_38_stop:
     }
-    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 114; ]
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 116; ]
     function onHide() as Void {
     }
-    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 117; ]
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 119; ]
     function onExitSleep() as Void {
     }
-    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 120; ]
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 122; ]
     function onEnterSleep() as Void {
     }
-    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 122; ]
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 124; ]
     function drawBattery() {
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_122_25_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 123 4 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_124_25_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 125 4 ]
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :getSystemStats;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         putv self :stats %tmp.3;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 124 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 126 4 ]
         %tmp.5 = getv ? :stats;
         %tmp.6 = getv %tmp.5 :battery;
         putv self :battery %tmp.6;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 125 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 127 4 ]
         %tmp.8 = getv ? :battery;
         %tmp.9 = getv function %tmp.8 :toLong;
         %tmp.10 = invoke %tmp.8 %tmp.9();
@@ -247,14 +255,14 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_122_25_sta
         %tmp.13 = "%";
         %tmp.14 = add %tmp.12 %tmp.13;
         putv self :batteryString %tmp.14;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 126 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 128 4 ]
         %tmp.16 = getv ? :View;
         %tmp.17 = getv function %tmp.16 :findDrawableById;
         %tmp.18 = "Battery";
         %tmp.19 = invoke %tmp.16 %tmp.17(%tmp.18);
         %tmp.20 = as %tmp.19 Text;
         putv self :batteryDisplay %tmp.20;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 129 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 131 4 ]
         %tmp.22 = getv ? :batteryDisplay;
         %tmp.23 = getv function %tmp.22 :setColor;
         %tmp.24 = self;
@@ -265,41 +273,41 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_122_25_sta
         %tmp.29 = invoke %tmp.26 %tmp.27(%tmp.28);
         %tmp.30 = as %tmp.29 Number;
         invoke %tmp.22 %tmp.23(%tmp.30);
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 131 4 ]
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_131_4_if_stmt:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 133 4 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_133_4_if_stmt:
         %tmp.32 = getv ? :battery;
         %tmp.33 = 50;
         %tmp.34 = lte %tmp.32 %tmp.33;
-        bf %tmp.34 @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_131_4_if_false;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_131_4_if_true:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_131_23_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 132 6 ]
+        bf %tmp.34 @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_133_4_if_false;
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_133_4_if_true:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_133_23_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 134 6 ]
         %tmp.36 = getv ? :batteryDisplay;
         %tmp.37 = getv function %tmp.36 :setText;
         %tmp.39 = getv ? :batteryString;
         invoke %tmp.36 %tmp.37(%tmp.39);
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_131_23_stop:
-        goto @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_131_4_if_end;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_131_4_if_false:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_131_4_if_end:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_122_25_stop:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_133_23_stop:
+        goto @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_133_4_if_end;
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_133_4_if_false:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_133_4_if_end:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_124_25_stop:
     }
-    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 138; ]
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 140; ]
     function drawTemperature() {
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_138_29_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 139 4 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_140_29_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 141 4 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :findDrawableById;
         %tmp.4 = "FeelTemperature";
         %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
         %tmp.6 = as %tmp.5 Text;
         putv self :viewCurrentWeather %tmp.6;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 142 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 144 4 ]
         %tmp.7 = getm $.Toybox.Weather;
         %tmp.8 = getv function %tmp.7 :getCurrentConditions;
         %tmp.9 = invoke %tmp.7 %tmp.8();
         putv self :currentWeatherConditions %tmp.9;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 143 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 145 4 ]
         %tmp.11 = getv ? :viewCurrentWeather;
         %tmp.12 = getv function %tmp.11 :setColor;
         %tmp.13 = self;
@@ -310,21 +318,21 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_138_29_sta
         %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
         %tmp.19 = as %tmp.18 Number;
         invoke %tmp.11 %tmp.12(%tmp.19);
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 147 4 ]
-        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_138_29_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_138_29_stop" ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 149 4 ]
+        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_140_29_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_140_29_stop" ]
         %curentTemperature.1 = local;
         %tmp.21 = getv ? :currentWeatherConditions;
         %tmp.22 = getv %tmp.21 :temperature;
         lputv %curentTemperature.1 %tmp.22;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 148 4 ]
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_148_4_if_stmt:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 150 4 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_150_4_if_stmt:
         %tmp.24 = lgetv %curentTemperature.1;
         %tmp.25 = null;
         %tmp.26 = ne %tmp.24 %tmp.25;
-        bf %tmp.26 @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_148_4_if_end;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_148_4_if_true:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_148_35_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 149 6 ]
+        bf %tmp.26 @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_150_4_if_end;
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_150_4_if_true:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_150_35_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 151 6 ]
         %tmp.28 = getv ? :viewCurrentWeather;
         %tmp.29 = getv function %tmp.28 :setText;
         %tmp.31 = lgetv %curentTemperature.1;
@@ -332,15 +340,15 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_148_35_sta
         %tmp.33 = "°";
         %tmp.34 = add %tmp.32 %tmp.33;
         invoke %tmp.28 %tmp.29(%tmp.34);
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_148_35_stop:
-        goto @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_148_4_if_end;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_148_4_if_end:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_138_29_stop:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_150_35_stop:
+        goto @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_150_4_if_end;
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_150_4_if_end:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_140_29_stop:
     }
-    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 153; ]
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 155; ]
     function drawClock(dc) {
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_153_25_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 154 4 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_155_25_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 156 4 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :setColor;
         %tmp.3 = self;
@@ -353,81 +361,81 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_153_25_sta
         %tmp.10 = getm $.Toybox.Graphics;
         %tmp.11 = getv %tmp.10 :COLOR_TRANSPARENT;
         invoke %tmp.1 %tmp.2(%tmp.9, %tmp.11);
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 160 4 ]
-        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_153_25_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_153_25_stop" ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 162 4 ]
+        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_155_25_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_155_25_stop" ]
         %timeFormat.1 = local;
         %tmp.12 = "$1$:$2$";
         lputv %timeFormat.1 %tmp.12;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 161 4 ]
-        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_153_25_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_153_25_stop" ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 163 4 ]
+        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_155_25_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_155_25_stop" ]
         %clockTime.2 = local;
         %tmp.13 = getm $.Toybox.System;
         %tmp.14 = getv function %tmp.13 :getClockTime;
         %tmp.15 = invoke %tmp.13 %tmp.14();
         lputv %clockTime.2 %tmp.15;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 162 4 ]
-        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_153_25_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_153_25_stop" ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 164 4 ]
+        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_155_25_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_155_25_stop" ]
         %hours.3 = local;
         %tmp.16 = lgetv %clockTime.2;
         %tmp.17 = getv %tmp.16 :hour;
         lputv %hours.3 %tmp.17;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 163 4 ]
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_163_4_if_stmt:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 165 4 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_165_4_if_stmt:
         %tmp.18 = getm $.Toybox.System;
         %tmp.19 = getv function %tmp.18 :getDeviceSettings;
         %tmp.20 = invoke %tmp.18 %tmp.19();
         %tmp.21 = getv %tmp.20 :is24Hour;
         %tmp.22 = not %tmp.21;
-        bf %tmp.22 @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_163_4_if_false;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_163_4_if_true:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_163_46_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 164 6 ]
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_164_6_if_stmt:
+        bf %tmp.22 @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_165_4_if_false;
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_165_4_if_true:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_165_46_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 166 6 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_166_6_if_stmt:
         %tmp.24 = lgetv %hours.3;
         %tmp.25 = 12;
         %tmp.26 = gt %tmp.24 %tmp.25;
-        bf %tmp.26 @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_164_6_if_end;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_164_6_if_true:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_164_22_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 165 8 ]
+        bf %tmp.26 @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_166_6_if_end;
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_166_6_if_true:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_166_22_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 167 8 ]
         %tmp.28 = lgetv %hours.3;
         %tmp.29 = 12;
         %tmp.30 = sub %tmp.28 %tmp.29;
         lputv %hours.3 %tmp.30;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_164_22_stop:
-        goto @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_164_6_if_end;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_164_6_if_end:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_163_46_stop:
-        goto @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_163_4_if_end;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_163_4_if_false:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_167_11_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 168 6 ]
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_168_6_if_stmt:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_166_22_stop:
+        goto @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_166_6_if_end;
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_166_6_if_end:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_165_46_stop:
+        goto @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_165_4_if_end;
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_165_4_if_false:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_169_11_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 170 6 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_170_6_if_stmt:
         %tmp.31 = self;
         %tmp.32 = getv function %tmp.31 :getApp;
         %tmp.33 = invoke %tmp.31 %tmp.32();
         %tmp.34 = getv function %tmp.33 :getProperty;
         %tmp.35 = "UseMilitaryFormat";
         %tmp.36 = invoke %tmp.33 %tmp.34(%tmp.35);
-        bf %tmp.36 @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_168_6_if_end;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_168_6_if_true:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_168_53_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 169 8 ]
+        bf %tmp.36 @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_170_6_if_end;
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_170_6_if_true:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_170_53_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 171 8 ]
         %tmp.37 = "$1$$2$";
         lputv %timeFormat.1 %tmp.37;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 170 8 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 172 8 ]
         %tmp.38 = lgetv %hours.3;
         %tmp.39 = getv function %tmp.38 :format;
         %tmp.40 = "%02d";
         %tmp.41 = invoke %tmp.38 %tmp.39(%tmp.40);
         lputv %hours.3 %tmp.41;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_168_53_stop:
-        goto @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_168_6_if_end;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_168_6_if_end:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_167_11_stop:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_163_4_if_end:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 173 4 ]
-        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_153_25_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_153_25_stop" ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_170_53_stop:
+        goto @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_170_6_if_end;
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_170_6_if_end:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_169_11_stop:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_165_4_if_end:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 175 4 ]
+        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_155_25_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_155_25_stop" ]
         %timeString.4 = local;
         %tmp.42 = getm $.Toybox.Lang;
         %tmp.43 = getv function %tmp.42 :format;
@@ -445,7 +453,7 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_163_4_if_e
         %tmp.57 = aputv %tmp.56 1 %tmp.55;
         %tmp.58 = invoke %tmp.42 %tmp.43(%tmp.45, %tmp.57);
         lputv %timeString.4 %tmp.58;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 178 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 180 4 ]
         %tmp.59 = lgetv %dc;
         %tmp.60 = getv function %tmp.59 :drawText;
         %tmp.61 = lgetv %dc;
@@ -467,18 +475,18 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_163_4_if_e
         %tmp.78 = getv %tmp.77 :TEXT_JUSTIFY_VCENTER;
         %tmp.79 = bitor %tmp.76 %tmp.78;
         invoke %tmp.59 %tmp.60(%tmp.65, %tmp.70, %tmp.72, %tmp.74, %tmp.79);
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 187 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 189 4 ]
         %tmp.80 = self;
         %tmp.81 = getv function %tmp.80 :drawDate;
         %tmp.83 = lgetv %dc;
         invoke %tmp.80 %tmp.81(%tmp.83);
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_153_25_stop:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_155_25_stop:
     }
-    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 190; ]
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 192; ]
     function drawDate(dc) {
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_190_24_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 191 4 ]
-        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_190_24_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_190_24_stop" ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_192_24_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 193 4 ]
+        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_192_24_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_192_24_stop" ]
         %viewDate.1 = local;
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :findDrawableById;
@@ -486,7 +494,7 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_190_24_sta
         %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
         %tmp.6 = as %tmp.5 Text;
         lputv %viewDate.1 %tmp.6;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 193 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 195 4 ]
         %tmp.7 = lgetv %viewDate.1;
         %tmp.8 = getv function %tmp.7 :setColor;
         %tmp.9 = self;
@@ -497,8 +505,8 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_190_24_sta
         %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
         %tmp.15 = as %tmp.14 Number;
         invoke %tmp.7 %tmp.8(%tmp.15);
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 197 4 ]
-        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_190_24_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_190_24_stop" ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 199 4 ]
+        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_192_24_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_192_24_stop" ]
         %today.2 = local;
         %tmp.16 = getm $.Toybox.Time.Gregorian;
         %tmp.17 = getv function %tmp.16 :info;
@@ -509,8 +517,8 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_190_24_sta
         %tmp.22 = getv %tmp.21 :FORMAT_MEDIUM;
         %tmp.23 = invoke %tmp.16 %tmp.17(%tmp.20, %tmp.22);
         lputv %today.2 %tmp.23;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 198 4 ]
-        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_190_24_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_190_24_stop" ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 200 4 ]
+        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_192_24_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_192_24_stop" ]
         %dateString.3 = local;
         %tmp.24 = getm $.Toybox.Lang;
         %tmp.25 = getv function %tmp.24 :format;
@@ -530,7 +538,7 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_190_24_sta
         %tmp.39 = aputv %tmp.38 2 %tmp.37;
         %tmp.40 = invoke %tmp.24 %tmp.25(%tmp.26, %tmp.39);
         lputv %dateString.3 %tmp.40;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 206 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 208 4 ]
         %tmp.41 = lgetv %dc;
         %tmp.42 = getv function %tmp.41 :drawText;
         %tmp.43 = lgetv %dc;
@@ -548,230 +556,221 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_190_24_sta
         %tmp.56 = getv %tmp.55 :TEXT_JUSTIFY_VCENTER;
         %tmp.57 = bitor %tmp.54 %tmp.56;
         invoke %tmp.41 %tmp.42(%tmp.47, %tmp.48, %tmp.50, %tmp.52, %tmp.57);
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_190_24_stop:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_192_24_stop:
     }
-    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 216; ]
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 218; ]
     function drawSteps(dc) {
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_216_25_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 217 4 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_218_25_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 219 4 ]
         %tmp.1 = getm $.Toybox.ActivityMonitor;
         %tmp.2 = getv function %tmp.1 :getInfo;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         putv self :actinfo %tmp.3;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 219 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 221 4 ]
         %tmp.5 = getv ? :actinfo;
         %tmp.6 = getv %tmp.5 :steps;
         putv self :steps %tmp.6;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 220 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 222 4 ]
         %tmp.8 = getv ? :actinfo;
         %tmp.9 = getv %tmp.8 :stepGoal;
         putv self :stepGoal %tmp.9;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 222 4 ]
-        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_216_25_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_216_25_stop" ]
-        %MINUTES_PER_HOUR.1 = local;
-        %tmp.10 = 60.0;
-        lputv %MINUTES_PER_HOUR.1 %tmp.10;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 223 4 ]
-        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_216_25_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_216_25_stop" ]
-        %myAngle.2 = local;
-        %tmp.12 = getv ? :steps;
-        %tmp.13 = 60;
-        %tmp.14 = mul %tmp.12 %tmp.13;
-        %tmp.16 = getv ? :stepGoal;
-        %tmp.17 = div %tmp.14 %tmp.16;
-        lputv %myAngle.2 %tmp.17;
 [ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 224 4 ]
-        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_216_25_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_216_25_stop" ]
-        %arcRadius.3 = local;
-        %tmp.19 = getv ? :maxX;
-        %tmp.21 = getv ? :centerX;
-        %tmp.22 = sub %tmp.19 %tmp.21;
-        %tmp.23 = 2;
-        %tmp.24 = div %tmp.22 %tmp.23;
-        lputv %arcRadius.3 %tmp.24;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 229 4 ]
-        %tmp.25 = getm $.Toybox.System;
-        %tmp.26 = getv function %tmp.25 :println;
-        %tmp.27 = "steps";
-        %tmp.29 = getv ? :steps;
-        %tmp.30 = add %tmp.27 %tmp.29;
-        invoke %tmp.25 %tmp.26(%tmp.30);
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 231 4 ]
-        %tmp.31 = getm $.Toybox.System;
-        %tmp.32 = getv function %tmp.31 :println;
-        %tmp.33 = "stepGoal";
-        %tmp.35 = getv ? :stepGoal;
-        %tmp.36 = add %tmp.33 %tmp.35;
-        invoke %tmp.31 %tmp.32(%tmp.36);
+        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_218_25_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_218_25_stop" ]
+        %maximum_minutes.1 = local;
+        %tmp.10 = 60.0;
+        lputv %maximum_minutes.1 %tmp.10;
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 225 4 ]
+        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_218_25_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_218_25_stop" ]
+        %arcRadius.2 = local;
+        %tmp.12 = getv ? :maxX;
+        %tmp.14 = getv ? :centerX;
+        %tmp.15 = sub %tmp.12 %tmp.14;
+        %tmp.16 = 2;
+        %tmp.17 = div %tmp.15 %tmp.16;
+        lputv %arcRadius.2 %tmp.17;
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 230 4 ]
+        %tmp.18 = getm $.Toybox.System;
+        %tmp.19 = getv function %tmp.18 :println;
+        %tmp.20 = "steps";
+        %tmp.22 = getv ? :steps;
+        %tmp.23 = add %tmp.20 %tmp.22;
+        invoke %tmp.18 %tmp.19(%tmp.23);
 [ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 232 4 ]
-        %tmp.37 = lgetv %dc;
-        %tmp.38 = getv function %tmp.37 :setPenWidth;
-        %tmp.39 = 7;
-        invoke %tmp.37 %tmp.38(%tmp.39);
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 234 4 ]
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_234_4_if_stmt:
-        %tmp.41 = getv ? :steps;
-        %tmp.43 = getv ? :stepGoal;
-        %tmp.44 = gte %tmp.41 %tmp.43;
-        bf %tmp.44 @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_234_4_if_false;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_234_4_if_true:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_234_27_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 235 6 ]
-        %tmp.45 = self;
-        %tmp.46 = getv function %tmp.45 :getApp;
-        %tmp.47 = invoke %tmp.45 %tmp.46();
-        %tmp.48 = getv function %tmp.47 :getProperty;
-        %tmp.49 = "StepsColorGoalReached";
-        %tmp.50 = invoke %tmp.47 %tmp.48(%tmp.49);
-        putv self :stepColor %tmp.50;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 237 6 ]
-        %tmp.51 = lgetv %dc;
-        %tmp.52 = getv function %tmp.51 :setColor;
-        %tmp.54 = getv ? :stepColor;
-        %tmp.55 = as %tmp.54 Number;
-        %tmp.57 = getv ? :stepColor;
-        %tmp.58 = as %tmp.57 Number;
-        invoke %tmp.51 %tmp.52(%tmp.55, %tmp.58);
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 239 6 ]
-        %tmp.59 = lgetv %dc;
-        %tmp.60 = getv function %tmp.59 :drawArc;
-        %tmp.62 = getv ? :centerX;
-        %tmp.64 = getv ? :centerY;
-        %tmp.66 = getv ? :watchHeight;
-        %tmp.67 = 2;
-        %tmp.68 = div %tmp.66 %tmp.67;
-        %tmp.69 = 3;
-        %tmp.70 = sub %tmp.68 %tmp.69;
-        %tmp.71 = getm $.Toybox.Graphics;
-        %tmp.72 = getv %tmp.71 :ARC_CLOCKWISE;
-        %tmp.73 = 90;
-        %tmp.74 = 90;
-        invoke %tmp.59 %tmp.60(%tmp.62, %tmp.64, %tmp.70, %tmp.72, %tmp.73, %tmp.74);
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_234_27_stop:
-        goto @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_234_4_if_end;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_234_4_if_false:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_247_11_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 248 6 ]
-        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_247_11_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_247_11_stop" ]
-        %arcSteps.4 = local;
-        %tmp.75 = 60.0;
-        %tmp.77 = getv ? :steps;
-        %tmp.78 = mul %tmp.75 %tmp.77;
-        %tmp.80 = getv ? :stepGoal;
-        %tmp.81 = div %tmp.78 %tmp.80;
-        lputv %arcSteps.4 %tmp.81;
+        %tmp.24 = getm $.Toybox.System;
+        %tmp.25 = getv function %tmp.24 :println;
+        %tmp.26 = "stepGoal";
+        %tmp.28 = getv ? :stepGoal;
+        %tmp.29 = add %tmp.26 %tmp.28;
+        invoke %tmp.24 %tmp.25(%tmp.29);
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 233 4 ]
+        %tmp.30 = lgetv %dc;
+        %tmp.31 = getv function %tmp.30 :setPenWidth;
+        %tmp.32 = 7;
+        invoke %tmp.30 %tmp.31(%tmp.32);
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 235 4 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_235_4_if_stmt:
+        %tmp.34 = getv ? :steps;
+        %tmp.36 = getv ? :stepGoal;
+        %tmp.37 = gte %tmp.34 %tmp.36;
+        bf %tmp.37 @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_235_4_if_false;
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_235_4_if_true:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_235_27_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 236 6 ]
+        %tmp.38 = self;
+        %tmp.39 = getv function %tmp.38 :getApp;
+        %tmp.40 = invoke %tmp.38 %tmp.39();
+        %tmp.41 = getv function %tmp.40 :getProperty;
+        %tmp.42 = "StepsColorGoalReached";
+        %tmp.43 = invoke %tmp.40 %tmp.41(%tmp.42);
+        putv self :stepColor %tmp.43;
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 238 6 ]
+        %tmp.44 = lgetv %dc;
+        %tmp.45 = getv function %tmp.44 :setColor;
+        %tmp.47 = getv ? :stepColor;
+        %tmp.48 = as %tmp.47 Number;
+        %tmp.50 = getv ? :stepColor;
+        %tmp.51 = as %tmp.50 Number;
+        invoke %tmp.44 %tmp.45(%tmp.48, %tmp.51);
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 240 6 ]
+        %tmp.52 = lgetv %dc;
+        %tmp.53 = getv function %tmp.52 :drawArc;
+        %tmp.55 = getv ? :centerX;
+        %tmp.57 = getv ? :centerY;
+        %tmp.59 = getv ? :watchHeight;
+        %tmp.60 = 2;
+        %tmp.61 = div %tmp.59 %tmp.60;
+        %tmp.62 = 3;
+        %tmp.63 = sub %tmp.61 %tmp.62;
+        %tmp.64 = getm $.Toybox.Graphics;
+        %tmp.65 = getv %tmp.64 :ARC_CLOCKWISE;
+        %tmp.66 = 90;
+        %tmp.67 = 90;
+        invoke %tmp.52 %tmp.53(%tmp.55, %tmp.57, %tmp.63, %tmp.65, %tmp.66, %tmp.67);
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_235_27_stop:
+        goto @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_235_4_if_end;
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_235_4_if_false:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_248_11_start:
 [ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 249 6 ]
-        %tmp.82 = self;
-        %tmp.83 = getv function %tmp.82 :getAngle;
-        %tmp.85 = lgetv %arcSteps.4;
-        %tmp.87 = lgetv %MINUTES_PER_HOUR.1;
-        %tmp.88 = invoke %tmp.82 %tmp.83(%tmp.85, %tmp.87);
-        putv self :angle %tmp.88;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 251 6 ]
-        %tmp.89 = 90;
-        %tmp.90 = 180;
-        %tmp.92 = getv ? :angle;
-        %tmp.93 = mul %tmp.90 %tmp.92;
-        %tmp.94 = getm $.Toybox.Math;
-        %tmp.95 = getv %tmp.94 :PI;
-        %tmp.96 = div %tmp.93 %tmp.95;
-        %tmp.97 = sub %tmp.89 %tmp.96;
-        putv self :arcAngle %tmp.97;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 253 6 ]
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_253_6_if_stmt:
-        %tmp.99 = getv ? :arcAngle;
-        %tmp.100 = 90.0;
-        %tmp.101 = ne %tmp.99 %tmp.100;
-        bf %tmp.101 @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_253_6_if_end;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_253_6_if_true:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_253_28_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 254 8 ]
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_254_8_if_stmt:
-        %tmp.103 = getv ? :steps;
-        %tmp.105 = getv ? :stepGoal;
-        %tmp.106 = 2;
-        %tmp.107 = div %tmp.105 %tmp.106;
-        %tmp.108 = gte %tmp.103 %tmp.107;
-        bf %tmp.108 @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_254_8_if_false;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_254_8_if_true:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_254_35_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 255 10 ]
-        %tmp.109 = self;
-        %tmp.110 = getv function %tmp.109 :getApp;
-        %tmp.111 = invoke %tmp.109 %tmp.110();
-        %tmp.112 = getv function %tmp.111 :getProperty;
-        %tmp.113 = "StepsColorLoading";
-        %tmp.114 = invoke %tmp.111 %tmp.112(%tmp.113);
-        putv self :stepColor %tmp.114;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 257 10 ]
-        %tmp.115 = lgetv %dc;
-        %tmp.116 = getv function %tmp.115 :setColor;
-        %tmp.118 = getv ? :stepColor;
-        %tmp.119 = as %tmp.118 Number;
-        %tmp.121 = getv ? :stepColor;
-        %tmp.122 = as %tmp.121 Number;
-        invoke %tmp.115 %tmp.116(%tmp.119, %tmp.122);
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_254_35_stop:
-        goto @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_254_8_if_end;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_254_8_if_false:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 258 15 ]
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_258_15_if_stmt:
-        %tmp.124 = getv ? :steps;
-        %tmp.126 = getv ? :stepGoal;
-        %tmp.127 = 2;
-        %tmp.128 = div %tmp.126 %tmp.127;
-        %tmp.129 = lt %tmp.124 %tmp.128;
-        bf %tmp.129 @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_258_15_if_end;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_258_15_if_true:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_258_41_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 259 10 ]
-        %tmp.130 = self;
-        %tmp.131 = getv function %tmp.130 :getApp;
-        %tmp.132 = invoke %tmp.130 %tmp.131();
-        %tmp.133 = getv function %tmp.132 :getProperty;
-        %tmp.134 = "StepsColor";
-        %tmp.135 = invoke %tmp.132 %tmp.133(%tmp.134);
-        putv self :stepColor %tmp.135;
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 261 10 ]
-        %tmp.136 = lgetv %dc;
-        %tmp.137 = getv function %tmp.136 :setColor;
-        %tmp.139 = getv ? :stepColor;
-        %tmp.140 = as %tmp.139 Number;
-        %tmp.142 = getv ? :stepColor;
-        %tmp.143 = as %tmp.142 Number;
-        invoke %tmp.136 %tmp.137(%tmp.140, %tmp.143);
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_258_41_stop:
-        goto @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_258_15_if_end;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_258_15_if_end:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_254_8_if_end:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 264 8 ]
-        %tmp.144 = lgetv %dc;
-        %tmp.145 = getv function %tmp.144 :drawArc;
-        %tmp.147 = getv ? :centerX;
-        %tmp.149 = getv ? :centerY;
-        %tmp.151 = getv ? :watchHeight;
-        %tmp.152 = 2;
-        %tmp.153 = div %tmp.151 %tmp.152;
-        %tmp.154 = 3;
-        %tmp.155 = sub %tmp.153 %tmp.154;
-        %tmp.156 = getm $.Toybox.Graphics;
-        %tmp.157 = getv %tmp.156 :ARC_CLOCKWISE;
-        %tmp.158 = 90;
-        %tmp.160 = getv ? :arcAngle;
-        invoke %tmp.144 %tmp.145(%tmp.147, %tmp.149, %tmp.155, %tmp.157, %tmp.158, %tmp.160);
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_253_28_stop:
-        goto @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_253_6_if_end;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_253_6_if_end:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_247_11_stop:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_234_4_if_end:
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_216_25_stop:
+        [ "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_248_11_start" "D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_248_11_stop" ]
+        %arcSteps.3 = local;
+        %tmp.68 = 60.0;
+        %tmp.70 = getv ? :steps;
+        %tmp.71 = mul %tmp.68 %tmp.70;
+        %tmp.73 = getv ? :stepGoal;
+        %tmp.74 = div %tmp.71 %tmp.73;
+        lputv %arcSteps.3 %tmp.74;
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 250 6 ]
+        %tmp.75 = self;
+        %tmp.76 = getv function %tmp.75 :getAngle;
+        %tmp.78 = lgetv %arcSteps.3;
+        %tmp.80 = lgetv %maximum_minutes.1;
+        %tmp.81 = invoke %tmp.75 %tmp.76(%tmp.78, %tmp.80);
+        putv self :angle %tmp.81;
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 252 6 ]
+        %tmp.82 = 90;
+        %tmp.83 = 180;
+        %tmp.85 = getv ? :angle;
+        %tmp.86 = mul %tmp.83 %tmp.85;
+        %tmp.87 = getm $.Toybox.Math;
+        %tmp.88 = getv %tmp.87 :PI;
+        %tmp.89 = div %tmp.86 %tmp.88;
+        %tmp.90 = sub %tmp.82 %tmp.89;
+        putv self :arcAngle %tmp.90;
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 254 6 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_254_6_if_stmt:
+        %tmp.92 = getv ? :arcAngle;
+        %tmp.93 = 90.0;
+        %tmp.94 = ne %tmp.92 %tmp.93;
+        bf %tmp.94 @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_254_6_if_end;
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_254_6_if_true:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_254_28_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 255 8 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_255_8_if_stmt:
+        %tmp.96 = getv ? :steps;
+        %tmp.98 = getv ? :stepGoal;
+        %tmp.99 = 2;
+        %tmp.100 = div %tmp.98 %tmp.99;
+        %tmp.101 = gte %tmp.96 %tmp.100;
+        bf %tmp.101 @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_255_8_if_false;
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_255_8_if_true:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_255_35_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 256 10 ]
+        %tmp.102 = self;
+        %tmp.103 = getv function %tmp.102 :getApp;
+        %tmp.104 = invoke %tmp.102 %tmp.103();
+        %tmp.105 = getv function %tmp.104 :getProperty;
+        %tmp.106 = "StepsColorLoading";
+        %tmp.107 = invoke %tmp.104 %tmp.105(%tmp.106);
+        putv self :stepColor %tmp.107;
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 258 10 ]
+        %tmp.108 = lgetv %dc;
+        %tmp.109 = getv function %tmp.108 :setColor;
+        %tmp.111 = getv ? :stepColor;
+        %tmp.112 = as %tmp.111 Number;
+        %tmp.114 = getv ? :stepColor;
+        %tmp.115 = as %tmp.114 Number;
+        invoke %tmp.108 %tmp.109(%tmp.112, %tmp.115);
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_255_35_stop:
+        goto @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_255_8_if_end;
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_255_8_if_false:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 259 15 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_259_15_if_stmt:
+        %tmp.117 = getv ? :steps;
+        %tmp.119 = getv ? :stepGoal;
+        %tmp.120 = 2;
+        %tmp.121 = div %tmp.119 %tmp.120;
+        %tmp.122 = lt %tmp.117 %tmp.121;
+        bf %tmp.122 @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_259_15_if_end;
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_259_15_if_true:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_259_41_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 260 10 ]
+        %tmp.123 = self;
+        %tmp.124 = getv function %tmp.123 :getApp;
+        %tmp.125 = invoke %tmp.123 %tmp.124();
+        %tmp.126 = getv function %tmp.125 :getProperty;
+        %tmp.127 = "StepsColor";
+        %tmp.128 = invoke %tmp.125 %tmp.126(%tmp.127);
+        putv self :stepColor %tmp.128;
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 262 10 ]
+        %tmp.129 = lgetv %dc;
+        %tmp.130 = getv function %tmp.129 :setColor;
+        %tmp.132 = getv ? :stepColor;
+        %tmp.133 = as %tmp.132 Number;
+        %tmp.135 = getv ? :stepColor;
+        %tmp.136 = as %tmp.135 Number;
+        invoke %tmp.129 %tmp.130(%tmp.133, %tmp.136);
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_259_41_stop:
+        goto @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_259_15_if_end;
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_259_15_if_end:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_255_8_if_end:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 265 8 ]
+        %tmp.137 = lgetv %dc;
+        %tmp.138 = getv function %tmp.137 :drawArc;
+        %tmp.140 = getv ? :centerX;
+        %tmp.142 = getv ? :centerY;
+        %tmp.144 = getv ? :watchHeight;
+        %tmp.145 = 2;
+        %tmp.146 = div %tmp.144 %tmp.145;
+        %tmp.147 = 3;
+        %tmp.148 = sub %tmp.146 %tmp.147;
+        %tmp.149 = getm $.Toybox.Graphics;
+        %tmp.150 = getv %tmp.149 :ARC_CLOCKWISE;
+        %tmp.151 = 90;
+        %tmp.153 = getv ? :arcAngle;
+        invoke %tmp.137 %tmp.138(%tmp.140, %tmp.142, %tmp.148, %tmp.150, %tmp.151, %tmp.153);
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_254_28_stop:
+        goto @D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_254_6_if_end;
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_254_6_if_end:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_248_11_stop:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_235_4_if_end:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_218_25_stop:
     }
     //! Clear the screen
-    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 282; ]
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 283; ]
     protected
     function clear(dc) {
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_282_28_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 283 4 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_283_28_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 284 4 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :setColor;
         %tmp.3 = getm $.Toybox.Graphics;
@@ -779,17 +778,17 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_282_28_sta
         %tmp.5 = getm $.Toybox.Graphics;
         %tmp.6 = getv %tmp.5 :COLOR_BLACK;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 284 4 ]
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 285 4 ]
         %tmp.7 = lgetv %dc;
         %tmp.8 = getv function %tmp.7 :clear;
         invoke %tmp.7 %tmp.8();
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_282_28_stop:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_283_28_stop:
     }
-    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 287; ]
+    [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 288; ]
     protected
     function getAngle(value, maxValue) {
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_287_44_start:
-[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 288 4 ]
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_288_44_start:
+[ "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc" 289 4 ]
         %tmp.2 = lgetv %value;
         %tmp.4 = lgetv %maxValue;
         %tmp.5 = div %tmp.2 %tmp.4;
@@ -799,7 +798,7 @@ D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_287_44_sta
         %tmp.9 = 2.0;
         %tmp.10 = mul %tmp.8 %tmp.9;
         ret %tmp.10;
-D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_287_44_stop:
+D_projects_garmin_watch_face_watch1_three_watch3_source_watch3View_mc_288_44_stop:
     }
 }
 [ @file = "D:\projects\garmin\watch-face\watch1\three\watch3\source\watch3View.mc"; @line = 1; ]

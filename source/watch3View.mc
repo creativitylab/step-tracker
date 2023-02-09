@@ -59,9 +59,11 @@ class watch3View extends Ui.WatchFace {
 
   function initialize() {
     WatchFace.initialize();
-
-    foregroundColor = Gfx.COLOR_WHITE;
-    backgroundColor = Gfx.COLOR_BLACK;
+    foregroundColor = getApp().getProperty("ForegroundColor");
+    backgroundColor = getApp().getProperty("BackgroundColor");
+    //   dc.setColor(stepColor as Number, stepColor as Number);
+    // foregroundColor = Gfx.COLOR_WHITE;
+    // backgroundColor = Gfx.COLOR_BLACK;
   }
 
   // Load your resources here
