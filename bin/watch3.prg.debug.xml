@@ -288,7 +288,7 @@
 <entry endPc="268437890" name="dateString" stackId="4" startPc="268437667"/>
 <entry arg="true" endPc="268438144" name="dc" stackId="1" startPc="268437938"/>
 <entry arg="true" endPc="268439039" name="dc" stackId="1" startPc="268438145"/>
-<entry endPc="268439039" name="rez_cmp_local_custom_drawable_35401248939547197219" stackId="2" startPc="268438157"/>
+<entry endPc="268439039" name="rez_cmp_local_custom_drawable_20649926613186743018" stackId="2" startPc="268438157"/>
 <entry endPc="268439039" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268438157"/>
 <entry endPc="268439039" name="rez_cmp_local_text_Battery" stackId="4" startPc="268438157"/>
 <entry endPc="268439039" name="rez_cmp_local_text_DateLabel" stackId="5" startPc="268438157"/>

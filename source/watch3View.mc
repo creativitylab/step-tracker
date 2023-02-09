@@ -223,7 +223,7 @@ class watch3View extends Ui.WatchFace {
     var myAngle = (steps * 60) / stepGoal;
     var arcRadius = (maxX - centerX) / 2;
 
-    // steps=10;
+    //  steps=10;
     // stepGoal=10;
 
     System.println("steps" + steps);
